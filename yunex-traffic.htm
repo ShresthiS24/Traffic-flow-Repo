@@ -1,0 +1,3512 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="og: https://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"7754d53c5f",applicationID:"815526003"};;/*! For license information please see nr-loader-rum-1.255.0.min.js.LICENSE.txt */
+(()=>{var e,t,r={234:(e,t,r)=>{"use strict";r.d(t,{P_:()=>v,Mt:()=>b,C5:()=>s,OP:()=>k,lF:()=>N,Yu:()=>_,Dg:()=>m,CX:()=>c,GE:()=>w,sU:()=>R});var n=r(8632),i=r(9567);const o={beacon:n.ce.beacon,errorBeacon:n.ce.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},a={};function s(e){if(!e)throw new Error("All info objects require an agent identifier!");if(!a[e])throw new Error("Info for ".concat(e," was never set"));return a[e]}function c(e,t){if(!e)throw new Error("All info objects require an agent identifier!");a[e]=(0,i.D)(t,o);const r=(0,n.ek)(e);r&&(r.info=a[e])}const u=e=>{if(!e||"string"!=typeof e)return!1;try{document.createDocumentFragment().querySelector(e)}catch{return!1}return!0};var d=r(7056),l=r(50);const f="[data-nr-mask]",g=()=>{const e={mask_selector:"*",block_selector:"[data-nr-block]",mask_input_options:{color:!1,date:!1,"datetime-local":!1,email:!1,month:!1,number:!1,range:!1,search:!1,tel:!1,text:!1,time:!1,url:!1,week:!1,textarea:!1,select:!1,password:!0}};return{feature_flags:[],proxy:{assets:void 0,beacon:void 0},privacy:{cookies_enabled:!0},ajax:{deny_list:void 0,block_internal:!0,enabled:!0,harvestTimeSeconds:10,autoStart:!0},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},session:{domain:void 0,expiresMs:d.oD,inactiveMs:d.Hb},ssl:void 0,obfuscate:void 0,jserrors:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},metrics:{enabled:!0,autoStart:!0},page_action:{enabled:!0,harvestTimeSeconds:30,autoStart:!0},page_view_event:{enabled:!0,autoStart:!0},page_view_timing:{enabled:!0,harvestTimeSeconds:30,long_task:!1,autoStart:!0},session_trace:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},harvest:{tooManyRequestsDelay:60},session_replay:{autoStart:!0,enabled:!1,harvestTimeSeconds:60,preload:!1,sampling_rate:10,error_sampling_rate:100,collect_fonts:!1,inline_images:!1,inline_stylesheet:!0,mask_all_inputs:!0,get mask_text_selector(){return e.mask_selector},set mask_text_selector(t){u(t)?e.mask_selector="".concat(t,",").concat(f):""===t||null===t?e.mask_selector=f:(0,l.Z)("An invalid session_replay.mask_selector was provided. '*' will be used.",t)},get block_class(){return"nr-block"},get ignore_class(){return"nr-ignore"},get mask_text_class(){return"nr-mask"},get block_selector(){return e.block_selector},set block_selector(t){u(t)?e.block_selector+=",".concat(t):""!==t&&(0,l.Z)("An invalid session_replay.block_selector was provided and will not be used",t)},get mask_input_options(){return e.mask_input_options},set mask_input_options(t){t&&"object"==typeof t?e.mask_input_options={...t,password:!0}:(0,l.Z)("An invalid session_replay.mask_input_option was provided and will not be used",t)}},spa:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},soft_navigations:{enabled:!0,harvestTimeSeconds:10,autoStart:!0}}},p={},h="All configuration objects require an agent identifier!";function v(e){if(!e)throw new Error(h);if(!p[e])throw new Error("Configuration for ".concat(e," was never set"));return p[e]}function m(e,t){if(!e)throw new Error(h);p[e]=(0,i.D)(t,g());const r=(0,n.ek)(e);r&&(r.init=p[e])}function b(e,t){if(!e)throw new Error(h);var r=v(e);if(r){for(var n=t.split("."),i=0;i<n.length-1;i++)if("object"!=typeof(r=r[n[i]]))return;r=r[n[n.length-1]]}return r}const y={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},A={};function w(e,t){if(!e)throw new Error("All loader-config objects require an agent identifier!");A[e]=(0,i.D)(t,y);const r=(0,n.ek)(e);r&&(r.loader_config=A[e])}const _=(0,n.mF)().o;var x=r(385),E=r(6818);const D={buildEnv:E.Re,customTransaction:void 0,disabled:!1,distMethod:E.gF,isolatedBacklog:!1,loaderType:void 0,maxBytes:3e4,offset:Math.floor(x._A?.performance?.timeOrigin||x._A?.performance?.timing?.navigationStart||Date.now()),onerror:void 0,origin:""+x._A.location,ptid:void 0,releaseIds:{},appMetadata:{},session:void 0,xhrWrappable:"function"==typeof x._A.XMLHttpRequest?.prototype?.addEventListener,version:E.q4,denyList:void 0,harvestCount:0,timeKeeper:void 0},S={};function k(e){if(!e)throw new Error("All runtime objects require an agent identifier!");if(!S[e])throw new Error("Runtime for ".concat(e," was never set"));return S[e]}function R(e,t){if(!e)throw new Error("All runtime objects require an agent identifier!");S[e]=(0,i.D)(t,D);const r=(0,n.ek)(e);r&&(r.runtime=S[e])}function N(e){return function(e){try{const t=s(e);return!!t.licenseKey&&!!t.errorBeacon&&!!t.applicationID}catch(e){return!1}}(e)}},9567:(e,t,r)=>{"use strict";r.d(t,{D:()=>i});var n=r(50);function i(e,t){try{if(!e||"object"!=typeof e)return(0,n.Z)("Setting a Configurable requires an object as input");if(!t||"object"!=typeof t)return(0,n.Z)("Setting a Configurable requires a model to set its initial properties");const r=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),o=0===Object.keys(r).length?e:r;for(let a in o)if(void 0!==e[a])try{Array.isArray(e[a])&&Array.isArray(t[a])?r[a]=Array.from(new Set([...e[a],...t[a]])):"object"==typeof e[a]&&"object"==typeof t[a]?r[a]=i(e[a],t[a]):r[a]=e[a]}catch(e){(0,n.Z)("An error occurred while setting a property of a Configurable",e)}return r}catch(e){(0,n.Z)("An error occured while setting a Configurable",e)}}},6818:(e,t,r)=>{"use strict";r.d(t,{Re:()=>i,gF:()=>o,q4:()=>n});const n="1.255.0",i="PROD",o="CDN"},385:(e,t,r)=>{"use strict";r.d(t,{Nk:()=>d,Tt:()=>s,_A:()=>o,cv:()=>l,iS:()=>a,il:()=>n,ux:()=>c,v6:()=>i,w1:()=>u});const n="undefined"!=typeof window&&!!window.document,i="undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis.navigator instanceof WorkerNavigator),o=n?window:"undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis),a=Boolean("hidden"===o?.document?.visibilityState),s=/iPad|iPhone|iPod/.test(o.navigator?.userAgent),c=s&&"undefined"==typeof SharedWorker,u=((()=>{const e=o.navigator?.userAgent?.match(/Firefox[/\s](\d+\.\d+)/);Array.isArray(e)&&e.length>=2&&e[1]})(),Boolean(n&&window.document.documentMode)),d=!!o.navigator?.sendBeacon,l=Math.floor(o?.performance?.timeOrigin||o?.performance?.timing?.navigationStart||Date.now())},1117:(e,t,r)=>{"use strict";r.d(t,{w:()=>o});var n=r(50);const i={agentIdentifier:"",ee:void 0};class o{constructor(e){try{if("object"!=typeof e)return(0,n.Z)("shared context requires an object as input");this.sharedContext={},Object.assign(this.sharedContext,i),Object.entries(e).forEach((e=>{let[t,r]=e;Object.keys(i).includes(t)&&(this.sharedContext[t]=r)}))}catch(e){(0,n.Z)("An error occurred while setting SharedContext",e)}}}},8e3:(e,t,r)=>{"use strict";r.d(t,{LP:()=>l,RP:()=>c,o5:()=>u});var n=r(8325),i=r(1284),o=r(4322),a=r(3325);const s={};function c(e,t){const r={staged:!1,priority:a.p[t]||0};d(e),s[e].get(t)||s[e].set(t,r)}function u(e,t){d(e),s[e].get(t)&&s[e].delete(t),s[e].size&&f(e)}function d(e){if(!e)throw new Error("agentIdentifier required");s[e]||(s[e]=new Map)}function l(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"",t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"feature",r=arguments.length>2&&void 0!==arguments[2]&&arguments[2];if(d(e),!e||!s[e].get(t)||r)return g(e,t);s[e].get(t).staged=!0,f(e)}function f(e){const t=[...s[e]];t.every((e=>{let[t,r]=e;return r.staged}))&&(t.sort(((e,t)=>e[1].priority-t[1].priority)),t.forEach((t=>{let[r]=t;s[e].delete(r),g(e,r)})))}function g(e,t){const r=e?n.ee.get(e):n.ee,a=o.X.handlers;if(r.backlog&&a){var s=r.backlog[t],c=a[t];if(c){for(var u=0;s&&u<s.length;++u)p(s[u],c);(0,i.D)(c,(function(e,t){(0,i.D)(t,(function(t,r){r[0].on(e,r[1])}))}))}r.isolatedBacklog||delete a[t],r.backlog[t]=null,r.emit("drain-"+t,[])}}function p(e,t){var r=e[1];(0,i.D)(t[r],(function(t,r){var n=e[0];if(r[0]===n){var i=r[1],o=e[3],a=e[2];i.apply(o,a)}}))}},8325:(e,t,r)=>{"use strict";r.d(t,{A:()=>c,ee:()=>u});var n=r(8632),i=r(2210),o=r(234);class a{constructor(e){this.contextId=e}}var s=r(3117);const c="nr@context:".concat(s.a),u=function e(t,r){var n={},s={},d={},l=!1;try{l=16===r.length&&(0,o.OP)(r).isolatedBacklog}catch(e){}var f={on:p,addEventListener:p,removeEventListener:function(e,t){var r=n[e];if(!r)return;for(var i=0;i<r.length;i++)r[i]===t&&r.splice(i,1)},emit:function(e,r,n,i,o){!1!==o&&(o=!0);if(u.aborted&&!i)return;t&&o&&t.emit(e,r,n);for(var a=g(n),c=h(e),d=c.length,l=0;l<d;l++)c[l].apply(a,r);var p=m()[s[e]];p&&p.push([f,e,r,a]);return a},get:v,listeners:h,context:g,buffer:function(e,t){const r=m();if(t=t||"feature",f.aborted)return;Object.entries(e||{}).forEach((e=>{let[n,i]=e;s[i]=t,t in r||(r[t]=[])}))},abort:function(){f._aborted=!0,Object.keys(f.backlog).forEach((e=>{delete f.backlog[e]}))},isBuffering:function(e){return!!m()[s[e]]},debugId:r,backlog:l?{}:t&&"object"==typeof t.backlog?t.backlog:{},isolatedBacklog:l};return Object.defineProperty(f,"aborted",{get:()=>{let e=f._aborted||!1;return e||(t&&(e=t.aborted),e)}}),f;function g(e){return e&&e instanceof a?e:e?(0,i.X)(e,c,(()=>new a(c))):new a(c)}function p(e,t){n[e]=h(e).concat(t)}function h(e){return n[e]||[]}function v(t){return d[t]=d[t]||e(f,t)}function m(){return f.backlog}}(void 0,"globalEE"),d=(0,n.fP)();d.ee||(d.ee=u)},5546:(e,t,r)=>{"use strict";r.d(t,{E:()=>n,p:()=>i});var n=r(8325).ee.get("handle");function i(e,t,r,i,o){o?(o.buffer([e],i),o.emit(e,t,r)):(n.buffer([e],i),n.emit(e,t,r))}},4322:(e,t,r)=>{"use strict";r.d(t,{X:()=>o});var n=r(5546);o.on=a;var i=o.handlers={};function o(e,t,r,o){a(o||n.E,i,e,t,r)}function a(e,t,r,i,o){o||(o="feature"),e||(e=n.E);var a=t[o]=t[o]||{};(a[r]=a[r]||[]).push([e,i])}},3239:(e,t,r)=>{"use strict";r.d(t,{bP:()=>s,iz:()=>c,m$:()=>a});var n=r(385);let i=!1,o=!1;try{const e={get passive(){return i=!0,!1},get signal(){return o=!0,!1}};n._A.addEventListener("test",null,e),n._A.removeEventListener("test",null,e)}catch(e){}function a(e,t){return i||o?{capture:!!e,passive:i,signal:t}:!!e}function s(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2],n=arguments.length>3?arguments[3]:void 0;window.addEventListener(e,t,a(r,n))}function c(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2],n=arguments.length>3?arguments[3]:void 0;document.addEventListener(e,t,a(r,n))}},3117:(e,t,r)=>{"use strict";r.d(t,{a:()=>n});const n=(0,r(4402).Rl)()},4402:(e,t,r)=>{"use strict";r.d(t,{Rl:()=>a,ky:()=>s});var n=r(385);const i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx";function o(e,t){return e?15&e[t]:16*Math.random()|0}function a(){const e=n._A?.crypto||n._A?.msCrypto;let t,r=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(30))),i.split("").map((e=>"x"===e?o(t,r++).toString(16):"y"===e?(3&o()|8).toString(16):e)).join("")}function s(e){const t=n._A?.crypto||n._A?.msCrypto;let r,i=0;t&&t.getRandomValues&&(r=t.getRandomValues(new Uint8Array(e)));const a=[];for(var s=0;s<e;s++)a.push(o(r,i++).toString(16));return a.join("")}},7056:(e,t,r)=>{"use strict";r.d(t,{Bq:()=>n,Hb:()=>a,IK:()=>u,K4:()=>i,oD:()=>o,uT:()=>c,wO:()=>s});const n="NRBA",i="SESSION",o=144e5,a=18e5,s={PAUSE:"session-pause",RESET:"session-reset",RESUME:"session-resume",UPDATE:"session-update"},c={SAME_TAB:"same-tab",CROSS_TAB:"cross-tab"},u={OFF:0,FULL:1,ERROR:2}},7894:(e,t,r)=>{"use strict";function n(){return Math.floor(performance.now())}r.d(t,{z:()=>n})},50:(e,t,r)=>{"use strict";function n(e,t){"function"==typeof console.warn&&(console.warn("New Relic: ".concat(e)),t&&console.warn(t))}r.d(t,{Z:()=>n})},2825:(e,t,r)=>{"use strict";r.d(t,{N:()=>c,T:()=>s});var n=r(8325),i=r(385);const o="newrelic";const a=new Set,s={};function c(e,t){const r=n.ee.get(t);s[t]??={},e&&"object"==typeof e&&(a.has(t)||(r.emit("rumresp",[e]),s[t]=e,a.add(t),function(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};try{i._A.dispatchEvent(new CustomEvent(o,{detail:e}))}catch(e){}}({loaded:!0})))}},2210:(e,t,r)=>{"use strict";r.d(t,{X:()=>i});var n=Object.prototype.hasOwnProperty;function i(e,t,r){if(n.call(e,t))return e[t];var i=r();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},1284:(e,t,r)=>{"use strict";r.d(t,{D:()=>n});const n=(e,t)=>Object.entries(e||{}).map((e=>{let[r,n]=e;return t(r,n)}))},4351:(e,t,r)=>{"use strict";r.d(t,{P:()=>o});var n=r(8325);const i=()=>{const e=new WeakSet;return(t,r)=>{if("object"==typeof r&&null!==r){if(e.has(r))return;e.add(r)}return r}};function o(e){try{return JSON.stringify(e,i())}catch(e){try{n.ee.emit("internal-error",[e])}catch(e){}}}},3960:(e,t,r)=>{"use strict";r.d(t,{KB:()=>a,b2:()=>o});var n=r(3239);function i(){return"undefined"==typeof document||"complete"===document.readyState}function o(e,t){if(i())return e();(0,n.bP)("load",e,t)}function a(e){if(i())return e();(0,n.iz)("DOMContentLoaded",e)}},8632:(e,t,r)=>{"use strict";r.d(t,{EZ:()=>d,ce:()=>o,ek:()=>u,fP:()=>a,gG:()=>l,h5:()=>c,mF:()=>s});var n=r(385),i=r(7894);const o={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function a(){return n._A.NREUM||(n._A.NREUM={}),void 0===n._A.newrelic&&(n._A.newrelic=n._A.NREUM),n._A.NREUM}function s(){let e=a();return e.o||(e.o={ST:n._A.setTimeout,SI:n._A.setImmediate,CT:n._A.clearTimeout,XHR:n._A.XMLHttpRequest,REQ:n._A.Request,EV:n._A.Event,PR:n._A.Promise,MO:n._A.MutationObserver,FETCH:n._A.fetch}),e}function c(e,t){let r=a();r.initializedAgents??={},t.initializedAt={ms:(0,i.z)(),date:new Date},r.initializedAgents[e]=t}function u(e){let t=a();return t.initializedAgents?.[e]}function d(e,t){a()[e]=t}function l(){return function(){let e=a();const t=e.info||{};e.info={beacon:o.beacon,errorBeacon:o.errorBeacon,...t}}(),function(){let e=a();const t=e.init||{};e.init={...t}}(),s(),function(){let e=a();const t=e.loader_config||{};e.loader_config={...t}}(),a()}},7956:(e,t,r)=>{"use strict";r.d(t,{N:()=>i});var n=r(3239);function i(e){let t=arguments.length>1&&void 0!==arguments[1]&&arguments[1],r=arguments.length>2?arguments[2]:void 0,i=arguments.length>3?arguments[3]:void 0;(0,n.iz)("visibilitychange",(function(){if(t)return void("hidden"===document.visibilityState&&e());e(document.visibilityState)}),r,i)}},3081:(e,t,r)=>{"use strict";r.d(t,{gF:()=>o,mY:()=>i,t9:()=>n,vz:()=>s,xS:()=>a});const n=r(3325).D.metrics,i="sm",o="cm",a="storeSupportabilityMetrics",s="storeEventMetrics"},7633:(e,t,r)=>{"use strict";r.d(t,{t:()=>n});const n=r(3325).D.pageViewEvent},9251:(e,t,r)=>{"use strict";r.d(t,{t:()=>n});const n=r(3325).D.pageViewTiming},7144:(e,t,r)=>{"use strict";r.d(t,{Ef:()=>i});var n=r(7056);r(3325).D.sessionReplay;const i={RECORD:"recordReplay",PAUSE:"pauseReplay"};n.IK.ERROR,n.IK.FULL,n.IK.OFF},5938:(e,t,r)=>{"use strict";r.d(t,{W:()=>i});var n=r(8325);class i{constructor(e,t,r){this.agentIdentifier=e,this.aggregator=t,this.ee=n.ee.get(e),this.featureName=r,this.blocked=!1}}},2758:(e,t,r)=>{"use strict";r.d(t,{j:()=>w});var n=r(3325),i=r(234),o=r(5546),a=r(8325),s=r(8e3),c=r(3960),u=r(385),d=r(50),l=r(3081),f=r(8632),g=r(7144);const p=["setErrorHandler","finished","addToTrace","addRelease","addPageAction","setCurrentRouteName","setPageViewName","setCustomAttribute","interaction","noticeError","setUserId","setApplicationVersion","start","recordReplay","pauseReplay",g.Ef.RECORD,g.Ef.PAUSE],h=["setErrorHandler","finished","addToTrace","addRelease"];var v=r(7894);function m(){const e=(0,f.gG)();p.forEach((t=>{e[t]=function(){for(var r=arguments.length,n=new Array(r),i=0;i<r;i++)n[i]=arguments[i];return function(t){for(var r=arguments.length,n=new Array(r>1?r-1:0),i=1;i<r;i++)n[i-1]=arguments[i];let o=[];return Object.values(e.initializedAgents).forEach((e=>{e.exposed&&e.api[t]&&o.push(e.api[t](...n))})),o.length>1?o:o[0]}(t,...n)}}))}var b=r(2825);const y=e=>{const t=e.startsWith("http");e+="/",r.p=t?e:"https://"+e};let A=!1;function w(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},p=arguments.length>2?arguments[2]:void 0,w=arguments.length>3?arguments[3]:void 0,{init:_,info:x,loader_config:E,runtime:D={loaderType:p},exposed:S=!0}=t;const k=(0,f.gG)();x||(_=k.init,x=k.info,E=k.loader_config),(0,i.Dg)(e.agentIdentifier,_||{}),(0,i.GE)(e.agentIdentifier,E||{}),x.jsAttributes??={},u.v6&&(x.jsAttributes.isWorker=!0),(0,i.CX)(e.agentIdentifier,x);const R=(0,i.P_)(e.agentIdentifier),N=[x.beacon,x.errorBeacon];A||(R.proxy.assets&&(y(R.proxy.assets),N.push(R.proxy.assets)),R.proxy.beacon&&N.push(R.proxy.beacon),m(),(0,f.EZ)("activatedFeatures",b.T),e.runSoftNavOverSpa&&=!0===R.soft_navigations.enabled&&R.feature_flags.includes("soft_nav")),D.denyList=[...R.ajax.deny_list||[],...R.ajax.block_internal?N:[]],(0,i.sU)(e.agentIdentifier,D),void 0===e.api&&(e.api=function(e,t){let f=arguments.length>2&&void 0!==arguments[2]&&arguments[2];t||(0,s.RP)(e,"api");const p={};var m=a.ee.get(e),b=m.get("tracer"),y="api-",A=y+"ixn-";function w(t,r,n,o){const a=(0,i.C5)(e);return null===r?delete a.jsAttributes[t]:(0,i.CX)(e,{...a,jsAttributes:{...a.jsAttributes,[t]:r}}),E(y,n,!0,o||null===r?"session":void 0)(t,r)}function _(){}h.forEach((e=>{p[e]=E(y,e,!0,"api")})),p.addPageAction=E(y,"addPageAction",!0,n.D.pageAction),p.setPageViewName=function(t,r){if("string"==typeof t)return"/"!==t.charAt(0)&&(t="/"+t),(0,i.OP)(e).customTransaction=(r||"http://custom.transaction")+t,E(y,"setPageViewName",!0)()},p.setCustomAttribute=function(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2];if("string"==typeof e){if(["string","number","boolean"].includes(typeof t)||null===t)return w(e,t,"setCustomAttribute",r);(0,d.Z)("Failed to execute setCustomAttribute.\nNon-null value must be a string, number or boolean type, but a type of <".concat(typeof t,"> was provided."))}else(0,d.Z)("Failed to execute setCustomAttribute.\nName must be a string type, but a type of <".concat(typeof e,"> was provided."))},p.setUserId=function(e){if("string"==typeof e||null===e)return w("enduser.id",e,"setUserId",!0);(0,d.Z)("Failed to execute setUserId.\nNon-null value must be a string type, but a type of <".concat(typeof e,"> was provided."))},p.setApplicationVersion=function(e){if("string"==typeof e||null===e)return w("application.version",e,"setApplicationVersion",!1);(0,d.Z)("Failed to execute setApplicationVersion. Expected <String | null>, but got <".concat(typeof e,">."))},p.start=e=>{try{const t=e?"defined":"undefined";(0,o.p)(l.xS,["API/start/".concat(t,"/called")],void 0,n.D.metrics,m);const r=Object.values(n.D);if(void 0===e)e=r;else{if((e=Array.isArray(e)&&e.length?e:[e]).some((e=>!r.includes(e))))return(0,d.Z)("Invalid feature name supplied. Acceptable feature names are: ".concat(r));e.includes(n.D.pageViewEvent)||e.push(n.D.pageViewEvent)}e.forEach((e=>{m.emit("".concat(e,"-opt-in"))}))}catch(e){(0,d.Z)("An unexpected issue occurred",e)}},p[g.Ef.RECORD]=function(){(0,o.p)(l.xS,["API/recordReplay/called"],void 0,n.D.metrics,m),(0,o.p)(g.Ef.RECORD,[],void 0,n.D.sessionReplay,m)},p[g.Ef.PAUSE]=function(){(0,o.p)(l.xS,["API/pauseReplay/called"],void 0,n.D.metrics,m),(0,o.p)(g.Ef.PAUSE,[],void 0,n.D.sessionReplay,m)},p.interaction=function(e){return(new _).get("object"==typeof e?e:{})};const x=_.prototype={createTracer:function(e,t){var r={},i=this,a="function"==typeof t;return(0,o.p)(l.xS,["API/createTracer/called"],void 0,n.D.metrics,m),f||(0,o.p)(A+"tracer",[(0,v.z)(),e,r],i,n.D.spa,m),function(){if(b.emit((a?"":"no-")+"fn-start",[(0,v.z)(),i,a],r),a)try{return t.apply(this,arguments)}catch(e){throw b.emit("fn-err",[arguments,this,e],r),e}finally{b.emit("fn-end",[(0,v.z)()],r)}}}};function E(e,t,r,i){return function(){return(0,o.p)(l.xS,["API/"+t+"/called"],void 0,n.D.metrics,m),i&&(0,o.p)(e+t,[(0,v.z)(),...arguments],r?null:this,i,m),r?void 0:this}}function D(){r.e(75).then(r.bind(r,7438)).then((t=>{let{setAPI:r}=t;r(e),(0,s.LP)(e,"api")})).catch((()=>{(0,d.Z)("Downloading runtime APIs failed..."),m.abort()}))}return["actionText","setName","setAttribute","save","ignore","onEnd","getContext","end","get"].forEach((e=>{x[e]=E(A,e,void 0,f?n.D.softNav:n.D.spa)})),p.setCurrentRouteName=f?E(A,"routeName",void 0,n.D.softNav):E(y,"routeName",!0,n.D.spa),p.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),(0,o.p)(l.xS,["API/noticeError/called"],void 0,n.D.metrics,m),(0,o.p)("err",[e,(0,v.z)(),!1,t],void 0,n.D.jserrors,m)},u.il?(0,c.b2)((()=>D()),!0):D(),p}(e.agentIdentifier,w,e.runSoftNavOverSpa)),void 0===e.exposed&&(e.exposed=S),A=!0}},8993:(e,t,r)=>{r.nc=(()=>{try{return document?.currentScript?.nonce}catch(e){}return""})()},3325:(e,t,r)=>{"use strict";r.d(t,{D:()=>n,p:()=>i});const n={ajax:"ajax",jserrors:"jserrors",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",softNav:"soft_navigations",spa:"spa"},i={[n.pageViewEvent]:1,[n.pageViewTiming]:2,[n.metrics]:3,[n.jserrors]:4,[n.ajax]:5,[n.sessionTrace]:6,[n.pageAction]:7,[n.spa]:8,[n.softNav]:9,[n.sessionReplay]:10}}},n={};function i(e){var t=n[e];if(void 0!==t)return t.exports;var o=n[e]={exports:{}};return r[e](o,o.exports,i),o.exports}i.m=r,i.d=(e,t)=>{for(var r in t)i.o(t,r)&&!i.o(e,r)&&Object.defineProperty(e,r,{enumerable:!0,get:t[r]})},i.f={},i.e=e=>Promise.all(Object.keys(i.f).reduce(((t,r)=>(i.f[r](e,t),t)),[])),i.u=e=>"nr-rum-1.255.0.min.js",i.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),e={},t="NRBA-1.255.0.PROD:",i.l=(r,n,o,a)=>{if(e[r])e[r].push(n);else{var s,c;if(void 0!==o)for(var u=document.getElementsByTagName("script"),d=0;d<u.length;d++){var l=u[d];if(l.getAttribute("src")==r||l.getAttribute("data-webpack")==t+o){s=l;break}}if(!s){c=!0;var f={75:"sha512-yvalRo3j7RmzZVRzIh42ebWt17oJ4T32AbVOUANV82MjHU2thajbTjqAynar4//H0nKgDvQg5tZT4ehVDsIZ4Q=="};(s=document.createElement("script")).charset="utf-8",s.timeout=120,i.nc&&s.setAttribute("nonce",i.nc),s.setAttribute("data-webpack",t+o),s.src=r,0!==s.src.indexOf(window.location.origin+"/")&&(s.crossOrigin="anonymous"),f[a]&&(s.integrity=f[a])}e[r]=[n];var g=(t,n)=>{s.onerror=s.onload=null,clearTimeout(p);var i=e[r];if(delete e[r],s.parentNode&&s.parentNode.removeChild(s),i&&i.forEach((e=>e(n))),t)return t(n)},p=setTimeout(g.bind(null,void 0,{type:"timeout",target:s}),12e4);s.onerror=g.bind(null,s.onerror),s.onload=g.bind(null,s.onload),c&&document.head.appendChild(s)}},i.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.p="https://js-agent.newrelic.com/",(()=>{var e={50:0,832:0};i.f.j=(t,r)=>{var n=i.o(e,t)?e[t]:void 0;if(0!==n)if(n)r.push(n[2]);else{var o=new Promise(((r,i)=>n=e[t]=[r,i]));r.push(n[2]=o);var a=i.p+i.u(t),s=new Error;i.l(a,(r=>{if(i.o(e,t)&&(0!==(n=e[t])&&(e[t]=void 0),n)){var o=r&&("load"===r.type?"missing":r.type),a=r&&r.target&&r.target.src;s.message="Loading chunk "+t+" failed.\n("+o+": "+a+")",s.name="ChunkLoadError",s.type=o,s.request=a,n[1](s)}}),"chunk-"+t,t)}};var t=(t,r)=>{var n,o,[a,s,c]=r,u=0;if(a.some((t=>0!==e[t]))){for(n in s)i.o(s,n)&&(i.m[n]=s[n]);if(c)c(i)}for(t&&t(r);u<a.length;u++)o=a[u],i.o(e,o)&&e[o]&&e[o][0](),e[o]=0},r=self["webpackChunk:NRBA-1.255.0.PROD"]=self["webpackChunk:NRBA-1.255.0.PROD"]||[];r.forEach(t.bind(null,0)),r.push=t.bind(null,r.push.bind(r))})(),(()=>{"use strict";i(8993);var e=i(50),t=i(7144),r=i(4402);class n{agentIdentifier;constructor(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:(0,r.ky)(16);this.agentIdentifier=e}#e(t){for(var r=arguments.length,n=new Array(r>1?r-1:0),i=1;i<r;i++)n[i-1]=arguments[i];if("function"==typeof this.api?.[t])return this.api[t](...n);(0,e.Z)("Call to agent api ".concat(t," failed. The API is not currently initialized."))}addPageAction(e,t){return this.#e("addPageAction",e,t)}setPageViewName(e,t){return this.#e("setPageViewName",e,t)}setCustomAttribute(e,t,r){return this.#e("setCustomAttribute",e,t,r)}noticeError(e,t){return this.#e("noticeError",e,t)}setUserId(e){return this.#e("setUserId",e)}setApplicationVersion(e){return this.#e("setApplicationVersion",e)}setErrorHandler(e){return this.#e("setErrorHandler",e)}finished(e){return this.#e("finished",e)}addRelease(e,t){return this.#e("addRelease",e,t)}start(e){return this.#e("start",e)}recordReplay(){return this.#e(t.Ef.RECORD)}pauseReplay(){return this.#e(t.Ef.PAUSE)}addToTrace(e){return this.#e("addToTrace",e)}setCurrentRouteName(e){return this.#e("setCurrentRouteName",e)}interaction(){return this.#e("interaction")}}var o=i(3325),a=i(234);const s=Object.values(o.D);function c(e){const t={};return s.forEach((r=>{t[r]=function(e,t){return!0===(0,a.Mt)(t,"".concat(e,".enabled"))}(r,e)})),t}var u=i(2758);var d=i(8e3),l=i(5938),f=i(3960),g=i(385);const p=e=>g.il&&!0===(0,a.Mt)(e,"privacy.cookies_enabled");function h(e){return a.Yu.MO&&p&&!0===(0,a.Mt)(e,"session_trace.enabled")}class v extends l.W{constructor(e,t,r){let n=!(arguments.length>3&&void 0!==arguments[3])||arguments[3];super(e,t,r),this.auto=n,this.abortHandler=void 0,this.featAggregate=void 0,this.onAggregateImported=void 0,!1===(0,a.Mt)(this.agentIdentifier,"".concat(this.featureName,".autoStart"))&&(this.auto=!1),this.auto&&(0,d.RP)(e,r)}importAggregator(){let t,r=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};if(this.featAggregate)return;if(!this.auto)return void this.ee.on("".concat(this.featureName,"-opt-in"),(()=>{(0,d.RP)(this.agentIdentifier,this.featureName),this.auto=!0,this.importAggregator()}));this.onAggregateImported=new Promise((e=>{t=e}));const n=async()=>{let n;try{if(p(this.agentIdentifier)){const{setupAgentSession:e}=await i.e(75).then(i.bind(i,3108));n=e(this.agentIdentifier)}}catch(t){(0,e.Z)("A problem occurred when starting up session manager. This page will not start or extend any session.",t),this.featureName===o.D.sessionReplay&&this.abortHandler?.()}try{if(!this.#t(this.featureName,n))return(0,d.LP)(this.agentIdentifier,this.featureName),void t(!1);const{lazyFeatureLoader:e}=await i.e(75).then(i.bind(i,8582)),{Aggregate:o}=await e(this.featureName,"aggregate");this.featAggregate=new o(this.agentIdentifier,this.aggregator,r),t(!0)}catch(r){(0,e.Z)("Downloading and initializing ".concat(this.featureName," failed..."),r),this.abortHandler?.(),(0,d.LP)(this.agentIdentifier,this.featureName,!0),t(!1),this.ee&&this.ee.abort()}};g.il?(0,f.b2)((()=>n()),!0):n()}#t(e,t){return e!==o.D.sessionReplay||(r=this.agentIdentifier,n=t,!(!h(r)||!n?.isNew&&!n?.state.sessionReplayMode));var r,n}}var m=i(7633);class b extends v{static featureName=m.t;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,m.t,r),this.importAggregator()}}var y=i(1117),A=i(1284);class w extends y.w{constructor(e){super(e),this.aggregatedData={}}store(e,t,r,n,i){var o=this.getBucket(e,t,r,i);return o.metrics=function(e,t){t||(t={count:0});return t.count+=1,(0,A.D)(e,(function(e,r){t[e]=_(r,t[e])})),t}(n,o.metrics),o}merge(e,t,r,n,i){var o=this.getBucket(e,t,n,i);if(o.metrics){var a=o.metrics;a.count+=r.count,(0,A.D)(r,(function(e,t){if("count"!==e){var n=a[e],i=r[e];i&&!i.c?a[e]=_(i.t,n):a[e]=function(e,t){if(!t)return e;t.c||(t=x(t.t));return t.min=Math.min(e.min,t.min),t.max=Math.max(e.max,t.max),t.t+=e.t,t.sos+=e.sos,t.c+=e.c,t}(i,a[e])}}))}else o.metrics=r}storeMetric(e,t,r,n){var i=this.getBucket(e,t,r);return i.stats=_(n,i.stats),i}getBucket(e,t,r,n){this.aggregatedData[e]||(this.aggregatedData[e]={});var i=this.aggregatedData[e][t];return i||(i=this.aggregatedData[e][t]={params:r||{}},n&&(i.custom=n)),i}get(e,t){return t?this.aggregatedData[e]&&this.aggregatedData[e][t]:this.aggregatedData[e]}take(e){for(var t={},r="",n=!1,i=0;i<e.length;i++)t[r=e[i]]=Object.values(this.aggregatedData[r]||{}),t[r].length&&(n=!0),delete this.aggregatedData[r];return n?t:null}}function _(e,t){return null==e?function(e){e?e.c++:e={c:1};return e}(t):t?(t.c||(t=x(t.t)),t.c+=1,t.t+=e,t.sos+=e*e,e>t.max&&(t.max=e),e<t.min&&(t.min=e),t):{t:e}}function x(e){return{t:e,min:e,max:e,sos:e*e,c:1}}var E=i(8632),D=i(4351);var S=i(5546),k=i(7956),R=i(3239),N=i(9251),P=i(7894);class j extends v{static featureName=N.t;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,N.t,r),g.il&&((0,k.N)((()=>(0,S.p)("docHidden",[(0,P.z)()],void 0,N.t,this.ee)),!0),(0,R.bP)("pagehide",(()=>(0,S.p)("winPagehide",[(0,P.z)()],void 0,N.t,this.ee))),this.importAggregator())}}var I=i(3081);class T extends v{static featureName=I.t9;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,I.t9,r),this.importAggregator()}}new class extends n{constructor(t,r){super(r),g._A?(this.sharedAggregator=new w({agentIdentifier:this.agentIdentifier}),this.features={},(0,E.h5)(this.agentIdentifier,this),this.desiredFeatures=new Set(t.features||[]),this.desiredFeatures.add(b),this.runSoftNavOverSpa=[...this.desiredFeatures].some((e=>e.featureName===o.D.softNav)),(0,u.j)(this,t,t.loaderType||"agent"),this.run()):(0,e.Z)("Failed to initialize the agent. Could not determine the runtime environment.")}get config(){return{info:this.info,init:this.init,loader_config:this.loader_config,runtime:this.runtime}}run(){try{const t=c(this.agentIdentifier),r=[...this.desiredFeatures];r.sort(((e,t)=>o.p[e.featureName]-o.p[t.featureName])),r.forEach((r=>{if(!t[r.featureName]&&r.featureName!==o.D.pageViewEvent)return;if(this.runSoftNavOverSpa&&r.featureName===o.D.spa)return;if(!this.runSoftNavOverSpa&&r.featureName===o.D.softNav)return;const n=function(e){switch(e){case o.D.ajax:return[o.D.jserrors];case o.D.sessionTrace:return[o.D.ajax,o.D.pageViewEvent];case o.D.sessionReplay:return[o.D.sessionTrace];case o.D.pageViewTiming:return[o.D.pageViewEvent];default:return[]}}(r.featureName);n.every((e=>e in this.features))||(0,e.Z)("".concat(r.featureName," is enabled but one or more dependent features has not been initialized (").concat((0,D.P)(n),"). This may cause unintended consequences or missing data...")),this.features[r.featureName]=new r(this.agentIdentifier,this.sharedAggregator)}))}catch(t){(0,e.Z)("Failed to initialize all enabled instrument classes (agent aborted) -",t);for(const e in this.features)this.features[e].abortHandler?.();const r=(0,E.fP)();delete r.initializedAgents[this.agentIdentifier]?.api,delete r.initializedAgents[this.agentIdentifier]?.features,delete this.sharedAggregator;return r.ee.get(this.agentIdentifier).abort(),!1}}}({features:[b,j,T],loaderType:"lite"})})()})();</script>
+<meta name="description" content="HERE Probe Data powers Yunex Traffic&#039;s tool for managing gridlock — and driving efficient routing, cleaner air and smoother driving in the process. Traffic jams are a…" />
+<link rel="canonical" href="https://www.here.com/learn/blog/yunex-traffic" />
+<meta name="robots" content="index, follow" />
+<link rel="image_src" href="https://www.here.com/sites/g/files/odxslz256/files/styles/blog_post_xl/public/2022-06/traffic-congestion-automotive-car-cars-blog.jpeg?itok=9xnNsOid" />
+<meta property="og:site_name" content="HERE" />
+<meta property="og:type" content="blog post" />
+<meta property="og:url" content="https://www.here.com/learn/blog/yunex-traffic" />
+<meta property="og:title" content="How a traffic management system can reduce emissions and congestion — and boost safety" />
+<meta property="og:description" content="HERE Probe Data powers Yunex Traffic&#039;s tool for managing gridlock — and driving efficient routing, cleaner air and smoother driving in the process. Traffic jams are a…" />
+<meta property="og:image" content="https://www.here.com/sites/g/files/odxslz256/files/styles/blog_post_xl/public/2022-06/traffic-congestion-automotive-car-cars-blog.jpeg?itok=9xnNsOid" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="1500" />
+<meta property="og:image:height" content="1000" />
+<meta property="og:image:alt" content="How a traffic management system can reduce emissions and congestion — and boost safety" />
+<meta property="og:updated_time" content="Wed, 07/06/2022 - 07:26" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="HERE Probe Data powers Yunex Traffic&#039;s tool for managing gridlock — and driving efficient routing, cleaner air and smoother driving in the process. Traffic jams are a…" />
+<meta name="twitter:title" content="How a traffic management system can reduce emissions and congestion — and boost safety" />
+<meta name="twitter:url" content="https://www.here.com/learn/blog/yunex-traffic" />
+<meta name="twitter:image" content="https://www.here.com/sites/g/files/odxslz256/files/styles/blog_post_twitter/public/2022-06/traffic-congestion-automotive-car-cars-blog.jpeg?h=06ac0d8c&amp;itok=Z3VSY6MB" />
+<meta name="twitter:image:alt" content="How a traffic management system can reduce emissions and congestion — and boost safety" />
+<meta name="twitter:image:height" content="120" />
+<meta name="twitter:image:width" content="120" />
+<meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes" />
+<link rel="icon" href="/themes/custom/here_com_theme/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="alternate" hreflang="en" href="https://www.here.com/learn/blog/yunex-traffic" />
+<link rel="preconnect" href="//tags.tiqcdn.com" />
+<link rel="preconnect" href="//website.webforms-here.com" />
+<link rel="preconnect" href="//track.contently.com" />
+
+    <title>How a traffic management system can reduce emissions and congestion — and boost safety | HERE</title>
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" media="all" href="/sites/g/files/odxslz256/files/css/css_cUlVsxwMjdHJyUcMq6AT7cIIQbkRVZNkoeITQ7e45-c.css?delta=0&amp;language=en&amp;theme=here_com_theme&amp;include=eJyNVO2S2yAMfKG7eOb6JH0CRgbZJsaIE8JJ7ukrf6RNinPtD9sMu5bEaoUlxub8WZBvbwMymgl4RKFmKtEOo49v-ZYFp6aFjBtjWRkZcMKmD9RCqLbBTT6a4OOYK8wKvEDOP5cqTIKc_YxK0rwROZvOX-sUZ7gaH7NAtFjHoiKaBI1DQSsVPGBIGrmOGv0E4ilWSJ77azlQQKAN9W72UwrYAm9IgK-bCQSu-b3aAC1-IM5Ntkwh3MmxL9Bjc1-YfPFiFXtLwNAzpCE3jkuCcPqzcyoxlVZFG9DV9ZD1EMyEzm_qV4yOSJCr7d0NJherMteC3fGOeDJtIDv-5aLt-77gH_v5EJzpl86uSpv54ynKRnI-fxY95fqp21REZTOJcfZ4qWCtozf7kfMAXPenZS3Ccpnag-AzCNRKbDNywhB8yr7-jTGAoDOWotpWjNehOazsRbmrA9TRzlsQqvNHmH2_K_bDJEolAB9nmc0D-c7MCKwmqgt_Ym-sjaNm0UIWES_EYxfosghPlhZvi9pSbuEg3jLgLdixZyrRaQN0Dr9PemjIJ0YXbjrR_8PR8WmxvpGeJYH4L0pG7aMDvY6O76rneNr5dQByaffgdrlW9xl12KoS9nsRalCdnYjlQcu9jCLQN8try3LO75Zo9PiA9i7x2vlkIpnH22WFd7MJa2gflzgOc_QpoTQP69Pg-yHoI-f8krO6QM_YQQnyC8RIfkw" />
+<link rel="stylesheet" media="all" href="/sites/g/files/odxslz256/files/css/css_tt0slIVxu5VuxcsOrQSZ7LYuAMYhjAYCG6_B_ayWeXw.css?delta=1&amp;language=en&amp;theme=here_com_theme&amp;include=eJyNVO2S2yAMfKG7eOb6JH0CRgbZJsaIE8JJ7ukrf6RNinPtD9sMu5bEaoUlxub8WZBvbwMymgl4RKFmKtEOo49v-ZYFp6aFjBtjWRkZcMKmD9RCqLbBTT6a4OOYK8wKvEDOP5cqTIKc_YxK0rwROZvOX-sUZ7gaH7NAtFjHoiKaBI1DQSsVPGBIGrmOGv0E4ilWSJ77azlQQKAN9W72UwrYAm9IgK-bCQSu-b3aAC1-IM5Ntkwh3MmxL9Bjc1-YfPFiFXtLwNAzpCE3jkuCcPqzcyoxlVZFG9DV9ZD1EMyEzm_qV4yOSJCr7d0NJherMteC3fGOeDJtIDv-5aLt-77gH_v5EJzpl86uSpv54ynKRnI-fxY95fqp21REZTOJcfZ4qWCtozf7kfMAXPenZS3Ccpnag-AzCNRKbDNywhB8yr7-jTGAoDOWotpWjNehOazsRbmrA9TRzlsQqvNHmH2_K_bDJEolAB9nmc0D-c7MCKwmqgt_Ym-sjaNm0UIWES_EYxfosghPlhZvi9pSbuEg3jLgLdixZyrRaQN0Dr9PemjIJ0YXbjrR_8PR8WmxvpGeJYH4L0pG7aMDvY6O76rneNr5dQByaffgdrlW9xl12KoS9nsRalCdnYjlQcu9jCLQN8try3LO75Zo9PiA9i7x2vlkIpnH22WFd7MJa2gflzgOc_QpoTQP69Pg-yHoI-f8krO6QM_YQQnyC8RIfkw" />
+
+
+    <style>
+  @font-face {
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url('/themes/custom/here_base_theme/fonts/firaGo-subset/subset-FiraGO-Light.eot?33b78ec4-d97a-4011-bcde-cffa97a9c8d9');
+    src: local('FiraGO Light'), local('FiraGO-Light'),
+    url('/themes/custom/here_base_theme/fonts/firaGo-subset/subset-FiraGO-Light.woff2?33b78ec4-d97a-4011-bcde-cffa97a9c8d9') format('woff2'),
+    url('/themes/custom/here_base_theme/fonts/firaGo-subset/subset-FiraGO-Light.woff?33b78ec4-d97a-4011-bcde-cffa97a9c8d9') format('woff');
+  }
+
+  @font-face {
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('/themes/custom/here_base_theme/fonts/firaGo-subset/subset-FiraGO-Book.eot?33b78ec4-d97a-4011-bcde-cffa97a9c8d9');
+    src: local('FiraGO Book'), local('FiraGO-Book'),
+    url('/themes/custom/here_base_theme/fonts/firaGo-subset/subset-FiraGO-Book.woff2?33b78ec4-d97a-4011-bcde-cffa97a9c8d9') format('woff2'),
+    url('/themes/custom/here_base_theme/fonts/firaGo-subset/subset-FiraGO-Book.woff?33b78ec4-d97a-4011-bcde-cffa97a9c8d9') format('woff');
+  }
+
+  @font-face {
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url('/themes/custom/here_base_theme/fonts/firaGo-subset/subset-FiraGO-Medium.eot?33b78ec4-d97a-4011-bcde-cffa97a9c8d9');
+    src: local('FiraGO Medium'), local('FiraGO-Medium'),
+    url('/themes/custom/here_base_theme/fonts/firaGo-subset/subset-FiraGO-Medium.woff2?33b78ec4-d97a-4011-bcde-cffa97a9c8d9') format('woff2'),
+    url('/themes/custom/here_base_theme/fonts/firaGo-subset/subset-FiraGO-Medium.woff?33b78ec4-d97a-4011-bcde-cffa97a9c8d9') format('woff');
+  }
+
+  @font-face {
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('/themes/custom/here_base_theme/fonts/firaGo-subset/subset-FiraGO-Bold.eot?33b78ec4-d97a-4011-bcde-cffa97a9c8d9');
+    src: local('FiraGO Bold'), local('FiraGO-Bold'),
+    url('/themes/custom/here_base_theme/fonts/firaGo-subset/subset-FiraGO-Bold.woff2?33b78ec4-d97a-4011-bcde-cffa97a9c8d9') format('woff2'),
+    url('/themes/custom/here_base_theme/fonts/firaGo-subset/subset-FiraGO-Bold.woff?33b78ec4-d97a-4011-bcde-cffa97a9c8d9') format('woff');
+  }
+</style>
+
+    
+    
+
+    <script src="//tags.tiqcdn.com/utag/here/herecomcorporate/prod/utag.sync.js"></script>
+
+
+    <script>window.MSInputMethodContext && document.documentMode && document.write('<script src="https://cdn.jsdelivr.net/gh/nuxodin/ie11CustomProperties@4.1.0/ie11CustomProperties.min.js"><\/script>');</script>
+  </head>
+  <body class="component-theme-light path-node page-node-type-blog-post">
+    <a href="#block-here-com-theme-content" class="visually-hidden focusable">
+      Skip to main content
+    </a>
+    <script type="text/javascript">
+  var nkT = {
+    pName: "Home:Learn:Blog:Yunex Traffic",
+    sCountry: "Global",
+    sLang: "en",
+    PageTitleMetaData: "How a traffic management system can reduce emissions and congestion — and boost safety",
+    PublishDateMetaData: "14-04-2022",
+    PageAuthorMetaData: "Beth McLoughlin",
+    blog_story_tag: "Connected Driving",
+    searchResult: "0",
+    BlogType: "360_blog",  }
+</script>
+
+  <script src="//tags.tiqcdn.com/utag/here/herecomcorporate/prod/utag.js"></script>
+
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+
+
+
+<div  class="viewport-backgrounds">
+  <div class="gradient-background">
+    
+<div  class="gradient-animation gradient-animation--core">
+  <div class="gradient-animation__gradient-wrapper">
+    <div class="gradient-animation__gradient"></div>
+  </div>
+</div>
+  </div>
+  <div class="gray-background"></div>
+  <div class="light-blue-background"></div>
+</div>
+
+
+<div  class="region region--admin-links">
+      
+  </div>
+
+
+
+<div  class="region region--navigation">
+        
+
+<div  id="block-visionnavigationblock" data-block-plugin-id="v_navigation_block" class="block block--v-navigation-block">
+  
+    
+      
+
+
+<nav  data-anchor="#vision-navigation" data-entity-id="75826" class="v-navigation anchorable" role="navigation" aria-label="">
+  
+  
+
+  <div class="v-navigation__wrapper">
+    <div class="v-navigation__container container">
+      <div class="v-navigation__logo">
+        <a href="/" aria-label="Here Home page" hreflang="en"><span>
+  <svg width="40" height="48" viewBox="0 0 40 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path class="triangle" d="M11,36.8l-5.5,5.5L0,36.8H11z" fill="#48DAD0" />
+  <path class="HERE" d="M19.1,24.2c-1.2-1.4-1.1-2.1-0.4-2.8c0.9-0.9,1.7-0.5,2.7,0.5L19.1,24.2z M30.9,9.2c0.9-0.9,1.7-0.5,2.7,0.5
+	L31.3,12C30.1,10.7,30.2,9.9,30.9,9.2z M38,11.6c-1.1,1.6-2.9,4.2-4.9,2.2l5-5c-0.4-0.5-0.8-0.9-1-1.1c-2.7-2.7-5.7-2.7-8-0.4
+	c-1.6,1.6-2,3.4-1.5,5.1l-1.6-1.8c-0.5,0.3-2.4,1.9-0.9,4.5l-1.8-1.5l-2.4,2.4l3.2,3.2c-2.5-1.9-5.1-1.8-7.2,0.4
+	c-2.3,2.3-2.1,5-0.4,7.3l-0.3-0.3c-2.3-2.3-4.7-1.5-5.9-0.3c-0.9,0.9-1.5,2.2-1.3,3.1L4,24.6l-2.6,2.6l9.6,9.6h5.2l-3.5-3.5
+	c-1.8-1.8-1.8-2.8-1-3.7c0.8-0.8,1.8-0.3,3.6,1.4l3.4,3.4l2.6-2.6l-3.2-3.2c2.3,1.8,5.1,1.9,7.7-0.6l0,0c1.5-1.4,2-2.8,2-2.8
+	l-1.9-1.3c-1.1,1.6-2.9,4.2-4.9,2.3l5-5l3.1,3.1l2.7-2.7l-3.9-3.9c-1.8-1.8-0.7-3.5,0-4.1c0.4,0.7,0.9,1.5,1.5,2.1
+	c2.5,2.5,5.7,3,8.6,0.2l0,0c1.5-1.4,2-2.8,2-2.8S38,11.6,38,11.6z" />
+</svg>
+
+</span>
+</a>
+      </div>
+      <div class="v-navigation__menu">
+        <div class="v-navigation__menu-flyout">
+          <div class="v-navigation-flyout v-navigation-flyout--main active">
+            <ul class="v-navigation-flyout__content">
+                          
+<li  data-entity-id="194151" class="v-navigation-single-link">
+              
+
+
+<a  onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:TopNavigation:Why HERE&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:TopNavigation:Why HERE&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:TopNavigation:Why HERE&quot;
+});" class="v-navigation-link v-navigation-link--single-link" href="/why-here">
+  <span class="v-navigation-link__label">
+          Why HERE
+      </span>
+
+  </a>
+
+  
+  </li>
+
+  
+
+
+<li  data-entity-id="194331" class="v-navigation-panel v-navigation-panel--platform v-navigation-panel--offset-4 v-navigation-panel--columns-6" tabindex="0">
+  <div class="v-navigation-panel__title">
+        
+
+
+<div  class="v-navigation-flyout-label v-navigation-flyout-label--main" data-flyout-id="194331">
+  <div class="v-navigation-flyout-label__text">
+                    Our platform
+
+  
+        </div>
+  <div class="v-navigation-flyout-label__icon">
+    
+
+<span  class="hds-icon">
+  <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false"><path d="M10.1701 8L5.59009 3.41L7.00009 2L13.0001 8L7.00009 14L5.59009 12.59L10.1701 8Z"></path></svg>
+</span>
+  </div>
+</div>
+    </div>
+  <div class="v-navigation-panel__flyout">
+        
+
+
+<div  class="v-navigation-flyout" data-flyout-panel="194331" role="dialog">
+  <div class="v-navigation-flyout__back" data-flyout-id="194331">
+    
+
+<span  class="hds-icon">
+  <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false"><path d="M10.41 12.59L9 14L3 8L9 2L10.41 3.41L5.83 8L10.41 12.59Z"></path></svg>
+</span>
+                    Our platform
+
+  
+        </div>
+  
+<div  class="divider">
+  <div class="divider__line"></div>
+</div>
+  <ul class="v-navigation-flyout__content">
+                    
+
+
+<a  onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:TopNavigation:Platform overview&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:TopNavigation:Platform overview&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:TopNavigation:Platform overview&quot;
+});" class="v-navigation-link v-navigation-link--platform-panel" href="/platform">
+  <span class="v-navigation-link__label">
+          Platform overview
+      </span>
+
+      <span class="v-navigation-link__icon">
+      
+
+<span  class="hds-icon">
+  <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false"><path fill-rule="evenodd" clip-rule="evenodd" d="M2 9V7H10.5L7.73 4.27L9 3L14 8L9 13L7.75 11.75L10.5 9H2Z"></path></svg>
+</span>
+    </span>
+  </a>
+
+  
+                
+
+
+<div  data-entity-id="194261" class="v-navigation-platform-sub-panel">
+  
+<div  class="divider v-navigation-platform-sub-panel__divider">
+  <div class="divider__line"></div>
+</div>
+  <div class="v-navigation-platform-sub-panel__primary-link">
+                
+
+
+<a  onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:TopNavigation:Our products&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:TopNavigation:Our products&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:TopNavigation:Our products&quot;
+});" class="v-navigation-link v-navigation-link--platform-sub-panel" href="/products">
+  <span class="v-navigation-link__label">
+          Our products
+      </span>
+
+      <span class="v-navigation-link__icon">
+      
+
+<span  class="hds-icon">
+  <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false"><path fill-rule="evenodd" clip-rule="evenodd" d="M2 9V7H10.5L7.73 4.27L9 3L14 8L9 13L7.75 11.75L10.5 9H2Z"></path></svg>
+</span>
+    </span>
+  </a>
+
+  
+    </div>
+  <div class="v-navigation-platform-sub-panel__items">
+                
+
+
+<div  data-entity-id="194171" class="v-navigation-secondary-links">
+  <div class="v-navigation-secondary-links__title">
+        
+
+
+<div  class="v-navigation-flyout-label v-navigation-flyout-label--secondary-links" data-flyout-id="194171">
+  <div class="v-navigation-flyout-label__text">
+                    Maps &amp; Data
+
+  
+        </div>
+  <div class="v-navigation-flyout-label__icon">
+    
+
+<span  class="hds-icon">
+  <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false"><path d="M10.1701 8L5.59009 3.41L7.00009 2L13.0001 8L7.00009 14L5.59009 12.59L10.1701 8Z"></path></svg>
+</span>
+  </div>
+</div>
+    </div>
+  <div class="v-navigation-secondary-links__flyout">
+        
+
+
+<div  class="v-navigation-flyout" data-flyout-panel="194171" role="dialog">
+  <div class="v-navigation-flyout__back" data-flyout-id="194171">
+    
+
+<span  class="hds-icon">
+  <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false"><path d="M10.41 12.59L9 14L3 8L9 2L10.41 3.41L5.83 8L10.41 12.59Z"></path></svg>
+</span>
+                    Maps &amp; Data
+
+  
+        </div>
+  
+<div  class="divider">
+  <div class="divider__line"></div>
+</div>
+  <ul class="v-navigation-flyout__content">
+                    
+<li  data-entity-id="194156" class="v-navigation-secondary-link">
+  <div class="v-navigation-secondary-link__link">
+                
+
+
+<a  onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:TopNavigation:Dynamic Map Content&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:TopNavigation:Dynamic Map Content&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:TopNavigation:Dynamic Map Content&quot;
+});" class="v-navigation-link" href="/platform/dynamic-map-content">
+  <span class="v-navigation-link__label">
+          Dynamic Map Content
+      </span>
+
+  </a>
+
+  
+    </div>
+
+  </li>
+
+  
+<li  data-entity-id="194161" class="v-navigation-secondary-link">
+  <div class="v-navigation-secondary-link__link">
+                
+
+
+<a  onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:TopNavigation:Map Data&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:TopNavigation:Map Data&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:TopNavigation:Map Data&quot;
+});" class="v-navigation-link" href="/platform/map-data">
+  <span class="v-navigation-link__label">
+          Map Data
+      </span>
+
+  </a>
+
+  
+    </div>
+
+  </li>
+
+  
+<li  data-entity-id="194166" class="v-navigation-secondary-link">
+  <div class="v-navigation-secondary-link__link">
+                
+
+
+<a  onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:TopNavigation:Maps for ADAS &amp; HAD&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:TopNavigation:Maps for ADAS &amp; HAD&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:TopNavigation:Maps for ADAS &amp; HAD&quot;
+});" class="v-navigation-link" href="/platform/adas-had">
+  <span class="v-navigation-link__label">
+          Maps for ADAS &amp; HAD
+      </span>
+
+  </a>
+
+  
+    </div>
+
+  </li>
+
+
+  
+        </ul>
+</div>
+    </div>
+</div>
+
+  
+
+
+<div  data-entity-id="194196" class="v-navigation-secondary-links">
+  <div class="v-navigation-secondary-links__title">
+        
+
+
+<div  class="v-navigation-flyout-label v-navigation-flyout-label--secondary-links" data-flyout-id="194196">
+  <div class="v-navigation-flyout-label__text">
+                    Location Services
+
+  
+        </div>
+  <div class="v-navigation-flyout-label__icon">
+    
+
+<span  class="hds-icon">
+  <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false"><path d="M10.1701 8L5.59009 3.41L7.00009 2L13.0001 8L7.00009 14L5.59009 12.59L10.1701 8Z"></path></svg>
+</span>
+  </div>
+</div>
+    </div>
+  <div class="v-navigation-secondary-links__flyout">
+        
+
+
+<div  class="v-navigation-flyout" data-flyout-panel="194196" role="dialog">
+  <div class="v-navigation-flyout__back" data-flyout-id="194196">
+    
+
+<span  class="hds-icon">
+  <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false"><path d="M10.41 12.59L9 14L3 8L9 2L10.41 3.41L5.83 8L10.41 12.59Z"></path></svg>
+</span>
+                    Location Services
+
+  
+        </div>
+  
+<div  class="divider">
+  <div class="divider__line"></div>
+</div>
+  <ul class="v-navigation-flyout__content">
+                    
+<li  data-entity-id="194176" class="v-navigation-secondary-link">
+  <div class="v-navigation-secondary-link__link">
+                
+
+
+<a  onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:TopNavigation:HERE Geocoding &amp; Search&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:TopNavigation:HERE Geocoding &amp; Search&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:TopNavigation:HERE Geocoding &amp; Search&quot;
+});" class="v-navigation-link" href="/platform/geocoding">
+  <span class="v-navigation-link__label">
+          HERE Geocoding &amp; Search
+      </span>
+
+  </a>
+
+  
+    </div>
+
+  </li>
+
+  
+<li  data-entity-id="194181" class="v-navigation-secondary-link">
+  <div class="v-navigation-secondary-link__link">
+                
+
+
+<a  onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:TopNavigation:HERE Map Rendering&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:TopNavigation:HERE Map Rendering&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:TopNavigation:HERE Map Rendering&quot;
+});" class="v-navigation-link" href="/platform/map-rendering">
+  <span class="v-navigation-link__label">
+          HERE Map Rendering
+      </span>
+
+  </a>
+
+  
+    </div>
+
+  </li>
+
+  
+<li  data-entity-id="194186" class="v-navigation-secondary-link">
+  <div class="v-navigation-secondary-link__link">
+                
+
+
+<a  onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:TopNavigation:HERE Positioning&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:TopNavigation:HERE Positioning&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:TopNavigation:HERE Positioning&quot;
+});" class="v-navigation-link" href="/platform/positioning">
+  <span class="v-navigation-link__label">
+          HERE Positioning
+      </span>
+
+  </a>
+
+  
+    </div>
+
+  </li>
+
+  
+<li  data-entity-id="194191" class="v-navigation-secondary-link">
+  <div class="v-navigation-secondary-link__link">
+                
+
+
+<a  onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:TopNavigation:HERE Routing&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:TopNavigation:HERE Routing&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:TopNavigation:HERE Routing&quot;
+});" class="v-navigation-link" href="/platform/routing">
+  <span class="v-navigation-link__label">
+          HERE Routing
+      </span>
+
+  </a>
+
+  
+    </div>
+
+  </li>
+
+  
+<li  data-entity-id="200641" class="v-navigation-secondary-link">
+  <div class="v-navigation-secondary-link__link">
+                
+
+
+<a  onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:TopNavigation:HERE Tour Planning&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:TopNavigation:HERE Tour Planning&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:TopNavigation:HERE Tour Planning&quot;
+});" class="v-navigation-link" href="/platform/tour-planning">
+  <span class="v-navigation-link__label">
+          HERE Tour Planning
+      </span>
+
+  </a>
+
+  
+    </div>
+
+  </li>
+
+
+  
+        </ul>
+</div>
+    </div>
+</div>
+
+  
+
+
+<div  data-entity-id="194256" class="v-navigation-secondary-links">
+  <div class="v-navigation-secondary-links__title">
+        
+
+
+<div  class="v-navigation-flyout-label v-navigation-flyout-label--secondary-links" data-flyout-id="194256">
+  <div class="v-navigation-flyout-label__text">
+                    Platform Tools
+
+  
+        </div>
+  <div class="v-navigation-flyout-label__icon">
+    
+
+<span  class="hds-icon">
+  <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false"><path d="M10.1701 8L5.59009 3.41L7.00009 2L13.0001 8L7.00009 14L5.59009 12.59L10.1701 8Z"></path></svg>
+</span>
+  </div>
+</div>
+    </div>
+  <div class="v-navigation-secondary-links__flyout">
+        
+
+
+<div  class="v-navigation-flyout" data-flyout-panel="194256" role="dialog">
+  <div class="v-navigation-flyout__back" data-flyout-id="194256">
+    
+
+<span  class="hds-icon">
+  <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false"><path d="M10.41 12.59L9 14L3 8L9 2L10.41 3.41L5.83 8L10.41 12.59Z"></path></svg>
+</span>
+                    Platform Tools
+
+  
+        </div>
+  
+<div  class="divider">
+  <div class="divider__line"></div>
+</div>
+  <ul class="v-navigation-flyout__content">
+                    
+<li  data-entity-id="194226" class="v-navigation-secondary-link">
+  <div class="v-navigation-secondary-link__link">
+                
+
+
+<a  onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:TopNavigation:HERE Anonymizer&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:TopNavigation:HERE Anonymizer&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:TopNavigation:HERE Anonymizer&quot;
+});" class="v-navigation-link" href="/platform/anonymizer">
+  <span class="v-navigation-link__label">
+          HERE Anonymizer
+      </span>
+
+  </a>
+
+  
+    </div>
+
+  </li>
+
+  
+<li  data-entity-id="194231" class="v-navigation-secondary-link">
+  <div class="v-navigation-secondary-link__link">
+                
+
+
+<a  onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:TopNavigation:HERE Live Sense SDK&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:TopNavigation:HERE Live Sense SDK&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:TopNavigation:HERE Live Sense SDK&quot;
+});" class="v-navigation-link" href="/platform/live-sense-sdk">
+  <span class="v-navigation-link__label">
+          HERE Live Sense SDK
+      </span>
+
+  </a>
+
+  
+    </div>
+
+  </li>
+
+  
+<li  data-entity-id="194236" class="v-navigation-secondary-link">
+  <div class="v-navigation-secondary-link__link">
+                
+
+
+<a  onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:TopNavigation:HERE Marketplace&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:TopNavigation:HERE Marketplace&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:TopNavigation:HERE Marketplace&quot;
+});" class="v-navigation-link" href="/platform/marketplace">
+  <span class="v-navigation-link__label">
+          HERE Marketplace
+      </span>
+
+  </a>
+
+  
+    </div>
+
+  </li>
+
+  
+<li  data-entity-id="194241" class="v-navigation-secondary-link">
+  <div class="v-navigation-secondary-link__link">
+                
+
+
+<a  onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:TopNavigation:HERE SDK&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:TopNavigation:HERE SDK&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:TopNavigation:HERE SDK&quot;
+});" class="v-navigation-link" href="/platform/here-sdk">
+  <span class="v-navigation-link__label">
+          HERE SDK
+      </span>
+
+  </a>
+
+  
+    </div>
+
+  </li>
+
+
+  
+        </ul>
+</div>
+    </div>
+</div>
+
+  
+
+
+<div  data-entity-id="194221" class="v-navigation-secondary-links">
+  <div class="v-navigation-secondary-links__title">
+        
+
+
+<div  class="v-navigation-flyout-label v-navigation-flyout-label--secondary-links" data-flyout-id="194221">
+  <div class="v-navigation-flyout-label__text">
+                    Applications
+
+  
+        </div>
+  <div class="v-navigation-flyout-label__icon">
+    
+
+<span  class="hds-icon">
+  <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false"><path d="M10.1701 8L5.59009 3.41L7.00009 2L13.0001 8L7.00009 14L5.59009 12.59L10.1701 8Z"></path></svg>
+</span>
+  </div>
+</div>
+    </div>
+  <div class="v-navigation-secondary-links__flyout">
+        
+
+
+<div  class="v-navigation-flyout" data-flyout-panel="194221" role="dialog">
+  <div class="v-navigation-flyout__back" data-flyout-id="194221">
+    
+
+<span  class="hds-icon">
+  <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false"><path d="M10.41 12.59L9 14L3 8L9 2L10.41 3.41L5.83 8L10.41 12.59Z"></path></svg>
+</span>
+                    Applications
+
+  
+        </div>
+  
+<div  class="divider">
+  <div class="divider__line"></div>
+</div>
+  <ul class="v-navigation-flyout__content">
+                    
+<li  data-entity-id="194211" class="v-navigation-secondary-link">
+  <div class="v-navigation-secondary-link__link">
+                
+
+
+<a  onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:TopNavigation:HERE Navigation&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:TopNavigation:HERE Navigation&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:TopNavigation:HERE Navigation&quot;
+});" class="v-navigation-link" href="/products/navigation-on-demand">
+  <span class="v-navigation-link__label">
+          HERE Navigation
+      </span>
+
+  </a>
+
+  
+    </div>
+
+  </li>
+
+  
+<li  data-entity-id="194216" class="v-navigation-secondary-link">
+  <div class="v-navigation-secondary-link__link">
+                
+
+
+<a  onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:TopNavigation:HERE WeGo&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:TopNavigation:HERE WeGo&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:TopNavigation:HERE WeGo&quot;
+});" class="v-navigation-link" href="/products/wego">
+  <span class="v-navigation-link__label">
+          HERE WeGo
+      </span>
+
+  </a>
+
+  
+    </div>
+
+  </li>
+
+
+  
+        </ul>
+</div>
+    </div>
+</div>
+
+
+  
+    </div>
+</div>
+
+  
+
+
+<div  data-entity-id="194326" class="v-navigation-platform-sub-panel">
+  
+<div  class="divider v-navigation-platform-sub-panel__divider">
+  <div class="divider__line"></div>
+</div>
+  <div class="v-navigation-platform-sub-panel__primary-link">
+                
+
+
+<a  onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:TopNavigation:Our solutions&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:TopNavigation:Our solutions&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:TopNavigation:Our solutions&quot;
+});" class="v-navigation-link v-navigation-link--platform-sub-panel" href="/solutions">
+  <span class="v-navigation-link__label">
+          Our solutions
+      </span>
+
+      <span class="v-navigation-link__icon">
+      
+
+<span  class="hds-icon">
+  <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false"><path fill-rule="evenodd" clip-rule="evenodd" d="M2 9V7H10.5L7.73 4.27L9 3L14 8L9 13L7.75 11.75L10.5 9H2Z"></path></svg>
+</span>
+    </span>
+  </a>
+
+  
+    </div>
+  <div class="v-navigation-platform-sub-panel__items">
+                
+
+
+<div  data-entity-id="194291" class="v-navigation-secondary-links">
+  <div class="v-navigation-secondary-links__title">
+        
+
+
+<div  class="v-navigation-flyout-label v-navigation-flyout-label--secondary-links" data-flyout-id="194291">
+  <div class="v-navigation-flyout-label__text">
+                    Your Business
+
+  
+        </div>
+  <div class="v-navigation-flyout-label__icon">
+    
+
+<span  class="hds-icon">
+  <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false"><path d="M10.1701 8L5.59009 3.41L7.00009 2L13.0001 8L7.00009 14L5.59009 12.59L10.1701 8Z"></path></svg>
+</span>
+  </div>
+</div>
+    </div>
+  <div class="v-navigation-secondary-links__flyout">
+        
+
+
+<div  class="v-navigation-flyout" data-flyout-panel="194291" role="dialog">
+  <div class="v-navigation-flyout__back" data-flyout-id="194291">
+    
+
+<span  class="hds-icon">
+  <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false"><path d="M10.41 12.59L9 14L3 8L9 2L10.41 3.41L5.83 8L10.41 12.59Z"></path></svg>
+</span>
+                    Your Business
+
+  
+        </div>
+  
+<div  class="divider">
+  <div class="divider__line"></div>
+</div>
+  <ul class="v-navigation-flyout__content">
+                    
+<li  data-entity-id="194266" class="v-navigation-secondary-link">
+  <div class="v-navigation-secondary-link__link">
+                
+
+
+<a  onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:TopNavigation:Automated Driving&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:TopNavigation:Automated Driving&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:TopNavigation:Automated Driving&quot;
+});" class="v-navigation-link" href="/solutions/automated-driving">
+  <span class="v-navigation-link__label">
+          Automated Driving
+      </span>
+
+  </a>
+
+  
+    </div>
+
+  </li>
+
+  
+<li  data-entity-id="194271" class="v-navigation-secondary-link">
+  <div class="v-navigation-secondary-link__link">
+                
+
+
+<a  onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:TopNavigation:Connected Driving&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:TopNavigation:Connected Driving&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:TopNavigation:Connected Driving&quot;
+});" class="v-navigation-link" href="/solutions/connected-driving">
+  <span class="v-navigation-link__label">
+          Connected Driving
+      </span>
+
+  </a>
+
+  
+    </div>
+
+  </li>
+
+  
+<li  data-entity-id="194276" class="v-navigation-secondary-link">
+  <div class="v-navigation-secondary-link__link">
+                
+
+
+<a  onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:TopNavigation:Fleet Management&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:TopNavigation:Fleet Management&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:TopNavigation:Fleet Management&quot;
+});" class="v-navigation-link" href="/solutions/fleet-management">
+  <span class="v-navigation-link__label">
+          Fleet Management
+      </span>
+
+  </a>
+
+  
+    </div>
+
+  </li>
+
+  
+<li  data-entity-id="194281" class="v-navigation-secondary-link">
+  <div class="v-navigation-secondary-link__link">
+                
+
+
+<a  onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:TopNavigation:Infrastructure Planning&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:TopNavigation:Infrastructure Planning&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:TopNavigation:Infrastructure Planning&quot;
+});" class="v-navigation-link" href="/solutions/infrastructure-planning">
+  <span class="v-navigation-link__label">
+          Infrastructure Planning
+      </span>
+
+  </a>
+
+  
+    </div>
+
+  </li>
+
+  
+<li  data-entity-id="194461" class="v-navigation-secondary-link">
+  <div class="v-navigation-secondary-link__link">
+                
+
+
+<a  onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:TopNavigation:Supply Chain&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:TopNavigation:Supply Chain&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:TopNavigation:Supply Chain&quot;
+});" class="v-navigation-link" href="/solutions/supply-chain">
+  <span class="v-navigation-link__label">
+          Supply Chain
+      </span>
+
+  </a>
+
+  
+    </div>
+
+  </li>
+
+  
+<li  data-entity-id="194466" class="v-navigation-secondary-link">
+  <div class="v-navigation-secondary-link__link">
+                
+
+
+<a  onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:TopNavigation:Urban Mobility&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:TopNavigation:Urban Mobility&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:TopNavigation:Urban Mobility&quot;
+});" class="v-navigation-link" href="/solutions/urban-mobility">
+  <span class="v-navigation-link__label">
+          Urban Mobility
+      </span>
+
+  </a>
+
+  
+    </div>
+
+  </li>
+
+
+  
+        </ul>
+</div>
+    </div>
+</div>
+
+  
+
+
+<div  data-entity-id="194321" class="v-navigation-secondary-links">
+  <div class="v-navigation-secondary-links__title">
+        
+
+
+<div  class="v-navigation-flyout-label v-navigation-flyout-label--secondary-links" data-flyout-id="194321">
+  <div class="v-navigation-flyout-label__text">
+                    Your Use
+
+  
+        </div>
+  <div class="v-navigation-flyout-label__icon">
+    
+
+<span  class="hds-icon">
+  <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false"><path d="M10.1701 8L5.59009 3.41L7.00009 2L13.0001 8L7.00009 14L5.59009 12.59L10.1701 8Z"></path></svg>
+</span>
+  </div>
+</div>
+    </div>
+  <div class="v-navigation-secondary-links__flyout">
+        
+
+
+<div  class="v-navigation-flyout" data-flyout-panel="194321" role="dialog">
+  <div class="v-navigation-flyout__back" data-flyout-id="194321">
+    
+
+<span  class="hds-icon">
+  <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false"><path d="M10.41 12.59L9 14L3 8L9 2L10.41 3.41L5.83 8L10.41 12.59Z"></path></svg>
+</span>
+                    Your Use
+
+  
+        </div>
+  
+<div  class="divider">
+  <div class="divider__line"></div>
+</div>
+  <ul class="v-navigation-flyout__content">
+                    
+<li  data-entity-id="194296" class="v-navigation-secondary-link">
+  <div class="v-navigation-secondary-link__link">
+                
+
+
+<a  onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:TopNavigation:Build Applications&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:TopNavigation:Build Applications&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:TopNavigation:Build Applications&quot;
+});" class="v-navigation-link" href="/solutions/location-based-applications">
+  <span class="v-navigation-link__label">
+          Build Applications
+      </span>
+
+  </a>
+
+  
+    </div>
+
+  </li>
+
+  
+<li  data-entity-id="194301" class="v-navigation-secondary-link">
+  <div class="v-navigation-secondary-link__link">
+                
+
+
+<a  onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:TopNavigation:Develop Services&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:TopNavigation:Develop Services&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:TopNavigation:Develop Services&quot;
+});" class="v-navigation-link" href="/solutions/services-development">
+  <span class="v-navigation-link__label">
+          Develop Services
+      </span>
+
+  </a>
+
+  
+    </div>
+
+  </li>
+
+  
+<li  data-entity-id="194306" class="v-navigation-secondary-link">
+  <div class="v-navigation-secondary-link__link">
+                
+
+
+<a  onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:TopNavigation:Generate Insights&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:TopNavigation:Generate Insights&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:TopNavigation:Generate Insights&quot;
+});" class="v-navigation-link" href="/solutions/location-analytics">
+  <span class="v-navigation-link__label">
+          Generate Insights
+      </span>
+
+  </a>
+
+  
+    </div>
+
+  </li>
+
+  
+<li  data-entity-id="194311" class="v-navigation-secondary-link">
+  <div class="v-navigation-secondary-link__link">
+                
+
+
+<a  onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:TopNavigation:Make Maps&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:TopNavigation:Make Maps&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:TopNavigation:Make Maps&quot;
+});" class="v-navigation-link" href="/solutions/mapmaking">
+  <span class="v-navigation-link__label">
+          Make Maps
+      </span>
+
+  </a>
+
+  
+    </div>
+
+  </li>
+
+  
+<li  data-entity-id="194316" class="v-navigation-secondary-link">
+  <div class="v-navigation-secondary-link__link">
+                
+
+
+<a  onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:TopNavigation:Visualize Data&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:TopNavigation:Visualize Data&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:TopNavigation:Visualize Data&quot;
+});" class="v-navigation-link" href="/solutions/data-visualization">
+  <span class="v-navigation-link__label">
+          Visualize Data
+      </span>
+
+  </a>
+
+  
+    </div>
+
+  </li>
+
+
+  
+        </ul>
+</div>
+    </div>
+</div>
+
+
+  
+    </div>
+</div>
+
+
+  
+        </ul>
+</div>
+    </div>
+</li>
+
+  
+
+
+<li  data-entity-id="194386" class="v-navigation-panel" tabindex="0">
+  <div class="v-navigation-panel__title">
+        
+
+
+<div  class="v-navigation-flyout-label v-navigation-flyout-label--main" data-flyout-id="194386">
+  <div class="v-navigation-flyout-label__text">
+                    Get started
+
+  
+        </div>
+  <div class="v-navigation-flyout-label__icon">
+    
+
+<span  class="hds-icon">
+  <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false"><path d="M10.1701 8L5.59009 3.41L7.00009 2L13.0001 8L7.00009 14L5.59009 12.59L10.1701 8Z"></path></svg>
+</span>
+  </div>
+</div>
+    </div>
+  <div class="v-navigation-panel__flyout">
+        
+
+
+<div  class="v-navigation-flyout" data-flyout-panel="194386" role="dialog">
+  <div class="v-navigation-flyout__back" data-flyout-id="194386">
+    
+
+<span  class="hds-icon">
+  <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false"><path d="M10.41 12.59L9 14L3 8L9 2L10.41 3.41L5.83 8L10.41 12.59Z"></path></svg>
+</span>
+                    Get started
+
+  
+        </div>
+  
+<div  class="divider">
+  <div class="divider__line"></div>
+</div>
+  <ul class="v-navigation-flyout__content">
+                    
+
+
+<a  onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:TopNavigation:How to get started&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:TopNavigation:How to get started&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:TopNavigation:How to get started&quot;
+});" class="v-navigation-link" href="/get-started">
+  <span class="v-navigation-link__label">
+          How to get started
+      </span>
+
+      <span class="v-navigation-link__icon">
+      
+
+<span  class="hds-icon">
+  <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false"><path fill-rule="evenodd" clip-rule="evenodd" d="M2 9V7H10.5L7.73 4.27L9 3L14 8L9 13L7.75 11.75L10.5 9H2Z"></path></svg>
+</span>
+    </span>
+  </a>
+
+  
+                
+<li  data-entity-id="194351" class="v-navigation-secondary-link v-navigation-secondary-link--additional-links">
+  <div class="v-navigation-secondary-link__link">
+                
+
+
+<a  onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:TopNavigation:Start building&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:TopNavigation:Start building&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:TopNavigation:Start building&quot;
+});" class="v-navigation-link" href="/get-started/start-building">
+  <span class="v-navigation-link__label">
+          Start building
+      </span>
+
+  </a>
+
+  
+    </div>
+
+      <div class="v-navigation-secondary-link__additional_links">
+                  
+
+
+<div  data-entity-id="194346" class="v-navigation-secondary-links">
+  <div class="v-navigation-secondary-links__title">
+        
+
+
+<div  class="v-navigation-flyout-label v-navigation-flyout-label--secondary-links" data-flyout-id="194346">
+  <div class="v-navigation-flyout-label__text">
+                    Start Building
+
+  
+        </div>
+  <div class="v-navigation-flyout-label__icon">
+    
+
+<span  class="hds-icon">
+  <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false"><path d="M10.1701 8L5.59009 3.41L7.00009 2L13.0001 8L7.00009 14L5.59009 12.59L10.1701 8Z"></path></svg>
+</span>
+  </div>
+</div>
+    </div>
+  <div class="v-navigation-secondary-links__flyout">
+        
+
+
+<div  class="v-navigation-flyout" data-flyout-panel="194346" role="dialog">
+  <div class="v-navigation-flyout__back" data-flyout-id="194346">
+    
+
+<span  class="hds-icon">
+  <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false"><path d="M10.41 12.59L9 14L3 8L9 2L10.41 3.41L5.83 8L10.41 12.59Z"></path></svg>
+</span>
+                    Start Building
+
+  
+        </div>
+  
+<div  class="divider">
+  <div class="divider__line"></div>
+</div>
+  <ul class="v-navigation-flyout__content">
+                    
+<li  data-entity-id="194336" class="v-navigation-secondary-link">
+  <div class="v-navigation-secondary-link__link">
+                
+
+
+<a  onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:TopNavigation:Start building overview&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:TopNavigation:Start building overview&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:TopNavigation:Start building overview&quot;
+});" class="v-navigation-link" href="/get-started/start-building">
+  <span class="v-navigation-link__label">
+          Start building overview
+      </span>
+
+  </a>
+
+  
+    </div>
+
+  </li>
+
+
+  
+        </ul>
+</div>
+    </div>
+</div>
+
+
+  
+      </div>
+  </li>
+
+  
+<li  data-entity-id="194356" class="v-navigation-secondary-link">
+  <div class="v-navigation-secondary-link__link">
+                
+
+
+<a  onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:TopNavigation:Contact sales&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:TopNavigation:Contact sales&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:TopNavigation:Contact sales&quot;
+});" class="v-navigation-link" href="/contact">
+  <span class="v-navigation-link__label">
+          Contact sales
+      </span>
+
+  </a>
+
+  
+    </div>
+
+  </li>
+
+  
+<li  data-entity-id="212021" class="v-navigation-secondary-link">
+  <div class="v-navigation-secondary-link__link">
+                
+
+
+<a  onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:TopNavigation:Become a partner&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:TopNavigation:Become a partner&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:TopNavigation:Become a partner&quot;
+});" class="v-navigation-link" href="/get-started/partner-with-here">
+  <span class="v-navigation-link__label">
+          Become a partner
+      </span>
+
+  </a>
+
+  
+    </div>
+
+  </li>
+
+  
+<li  data-entity-id="194376" class="v-navigation-secondary-link v-navigation-secondary-link--additional-links">
+  <div class="v-navigation-secondary-link__link">
+                
+
+
+<a  onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:TopNavigation:Connect with our partner network&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:TopNavigation:Connect with our partner network&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:TopNavigation:Connect with our partner network&quot;
+});" class="v-navigation-link" href="/get-started/partner-network">
+  <span class="v-navigation-link__label">
+          Connect with our partner network
+      </span>
+
+  </a>
+
+  
+    </div>
+
+      <div class="v-navigation-secondary-link__additional_links">
+                  
+
+
+<div  data-entity-id="194371" class="v-navigation-secondary-links">
+  <div class="v-navigation-secondary-links__title">
+        
+
+
+<div  class="v-navigation-flyout-label v-navigation-flyout-label--secondary-links" data-flyout-id="194371">
+  <div class="v-navigation-flyout-label__text">
+                    Partner with HERE
+
+  
+        </div>
+  <div class="v-navigation-flyout-label__icon">
+    
+
+<span  class="hds-icon">
+  <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false"><path d="M10.1701 8L5.59009 3.41L7.00009 2L13.0001 8L7.00009 14L5.59009 12.59L10.1701 8Z"></path></svg>
+</span>
+  </div>
+</div>
+    </div>
+  <div class="v-navigation-secondary-links__flyout">
+        
+
+
+<div  class="v-navigation-flyout" data-flyout-panel="194371" role="dialog">
+  <div class="v-navigation-flyout__back" data-flyout-id="194371">
+    
+
+<span  class="hds-icon">
+  <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false"><path d="M10.41 12.59L9 14L3 8L9 2L10.41 3.41L5.83 8L10.41 12.59Z"></path></svg>
+</span>
+                    Partner with HERE
+
+  
+        </div>
+  
+<div  class="divider">
+  <div class="divider__line"></div>
+</div>
+  <ul class="v-navigation-flyout__content">
+                    
+<li  data-entity-id="194361" class="v-navigation-secondary-link">
+  <div class="v-navigation-secondary-link__link">
+                
+
+
+<a  onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:TopNavigation:Partner with HERE overview&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:TopNavigation:Partner with HERE overview&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:TopNavigation:Partner with HERE overview&quot;
+});" class="v-navigation-link" href="/get-started/partner-network">
+  <span class="v-navigation-link__label">
+          Partner with HERE overview
+      </span>
+
+  </a>
+
+  
+    </div>
+
+  </li>
+
+  
+<li  data-entity-id="194366" class="v-navigation-secondary-link">
+  <div class="v-navigation-secondary-link__link">
+                
+
+
+<a  onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:TopNavigation:Partner Network&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:TopNavigation:Partner Network&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:TopNavigation:Partner Network&quot;
+});" class="v-navigation-link" href="/get-started/partner-with-here/find-partner">
+  <span class="v-navigation-link__label">
+          Partner Network
+      </span>
+
+  </a>
+
+  
+    </div>
+
+  </li>
+
+
+  
+        </ul>
+</div>
+    </div>
+</div>
+
+
+  
+      </div>
+  </li>
+
+  
+<li  data-entity-id="217531" class="v-navigation-secondary-link">
+  <div class="v-navigation-secondary-link__link">
+                
+
+
+<a  onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:TopNavigation:Professional services&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:TopNavigation:Professional services&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:TopNavigation:Professional services&quot;
+});" class="v-navigation-link" href="/get-started/professional-services">
+  <span class="v-navigation-link__label">
+          Professional services
+      </span>
+
+  </a>
+
+  
+    </div>
+
+  </li>
+
+  
+<li  data-entity-id="194381" class="v-navigation-secondary-link">
+  <div class="v-navigation-secondary-link__link">
+                
+
+
+<a  onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:TopNavigation:Our pricing&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:TopNavigation:Our pricing&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:TopNavigation:Our pricing&quot;
+});" class="v-navigation-link" href="/get-started/pricing">
+  <span class="v-navigation-link__label">
+          Our pricing
+      </span>
+
+  </a>
+
+  
+    </div>
+
+  </li>
+
+
+  
+        </ul>
+</div>
+    </div>
+</li>
+
+  
+
+
+<li  data-entity-id="194416" class="v-navigation-panel" tabindex="0">
+  <div class="v-navigation-panel__title">
+        
+
+
+<div  class="v-navigation-flyout-label v-navigation-flyout-label--main" data-flyout-id="194416">
+  <div class="v-navigation-flyout-label__text">
+                    Learn
+
+  
+        </div>
+  <div class="v-navigation-flyout-label__icon">
+    
+
+<span  class="hds-icon">
+  <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false"><path d="M10.1701 8L5.59009 3.41L7.00009 2L13.0001 8L7.00009 14L5.59009 12.59L10.1701 8Z"></path></svg>
+</span>
+  </div>
+</div>
+    </div>
+  <div class="v-navigation-panel__flyout">
+        
+
+
+<div  class="v-navigation-flyout" data-flyout-panel="194416" role="dialog">
+  <div class="v-navigation-flyout__back" data-flyout-id="194416">
+    
+
+<span  class="hds-icon">
+  <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false"><path d="M10.41 12.59L9 14L3 8L9 2L10.41 3.41L5.83 8L10.41 12.59Z"></path></svg>
+</span>
+                    Learn
+
+  
+        </div>
+  
+<div  class="divider">
+  <div class="divider__line"></div>
+</div>
+  <ul class="v-navigation-flyout__content">
+                    
+
+
+<a  onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:TopNavigation:Explore Learn&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:TopNavigation:Explore Learn&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:TopNavigation:Explore Learn&quot;
+});" class="v-navigation-link" href="/learn">
+  <span class="v-navigation-link__label">
+          Explore Learn
+      </span>
+
+      <span class="v-navigation-link__icon">
+      
+
+<span  class="hds-icon">
+  <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false"><path fill-rule="evenodd" clip-rule="evenodd" d="M2 9V7H10.5L7.73 4.27L9 3L14 8L9 13L7.75 11.75L10.5 9H2Z"></path></svg>
+</span>
+    </span>
+  </a>
+
+  
+                
+<li  data-entity-id="207851" class="v-navigation-secondary-link">
+  <div class="v-navigation-secondary-link__link">
+                
+
+
+<a  onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:TopNavigation:Customer stories&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:TopNavigation:Customer stories&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:TopNavigation:Customer stories&quot;
+});" class="v-navigation-link" href="/learn/customer-stories">
+  <span class="v-navigation-link__label">
+          Customer stories
+      </span>
+
+  </a>
+
+  
+    </div>
+
+  </li>
+
+  
+<li  data-entity-id="194411" class="v-navigation-secondary-link">
+  <div class="v-navigation-secondary-link__link">
+                
+
+
+<a  onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:TopNavigation:Events&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:TopNavigation:Events&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:TopNavigation:Events&quot;
+});" class="v-navigation-link" href="/learn/events">
+  <span class="v-navigation-link__label">
+          Events
+      </span>
+
+  </a>
+
+  
+    </div>
+
+  </li>
+
+  
+<li  data-entity-id="194391" class="v-navigation-secondary-link">
+  <div class="v-navigation-secondary-link__link">
+                
+
+
+<a  onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:TopNavigation:HERE360 news&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:TopNavigation:HERE360 news&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:TopNavigation:HERE360 news&quot;
+});" class="v-navigation-link" href="/learn/blog?type=here360">
+  <span class="v-navigation-link__label">
+          HERE360 news
+      </span>
+
+  </a>
+
+  
+    </div>
+
+  </li>
+
+  
+<li  data-entity-id="194401" class="v-navigation-secondary-link v-navigation-secondary-link--additional-links">
+  <div class="v-navigation-secondary-link__link">
+                
+
+
+<a  onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:TopNavigation:Developer resources&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:TopNavigation:Developer resources&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:TopNavigation:Developer resources&quot;
+});" class="v-navigation-link" href="https://developer.here.com/?cid=www.here.com-topnav-menu">
+  <span class="v-navigation-link__label">
+          Developer resources
+      </span>
+
+  </a>
+
+  
+    </div>
+
+      <div class="v-navigation-secondary-link__additional_links">
+                  
+
+
+<div  data-entity-id="194491" class="v-navigation-secondary-links">
+  <div class="v-navigation-secondary-links__title">
+        
+
+
+<div  class="v-navigation-flyout-label v-navigation-flyout-label--secondary-links" data-flyout-id="194491">
+  <div class="v-navigation-flyout-label__text">
+                    Developer resources
+
+  
+        </div>
+  <div class="v-navigation-flyout-label__icon">
+    
+
+<span  class="hds-icon">
+  <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false"><path d="M10.1701 8L5.59009 3.41L7.00009 2L13.0001 8L7.00009 14L5.59009 12.59L10.1701 8Z"></path></svg>
+</span>
+  </div>
+</div>
+    </div>
+  <div class="v-navigation-secondary-links__flyout">
+        
+
+
+<div  class="v-navigation-flyout" data-flyout-panel="194491" role="dialog">
+  <div class="v-navigation-flyout__back" data-flyout-id="194491">
+    
+
+<span  class="hds-icon">
+  <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false"><path d="M10.41 12.59L9 14L3 8L9 2L10.41 3.41L5.83 8L10.41 12.59Z"></path></svg>
+</span>
+                    Developer resources
+
+  
+        </div>
+  
+<div  class="divider">
+  <div class="divider__line"></div>
+</div>
+  <ul class="v-navigation-flyout__content">
+                    
+<li  data-entity-id="194471" class="v-navigation-secondary-link">
+  <div class="v-navigation-secondary-link__link">
+                
+
+
+<a  onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:TopNavigation:Documentation&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:TopNavigation:Documentation&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:TopNavigation:Documentation&quot;
+});" class="v-navigation-link" href="https://developer.here.com/documentation?cid=www.here.com-topnav-menu-documentation">
+  <span class="v-navigation-link__label">
+          Documentation
+      </span>
+
+  </a>
+
+  
+    </div>
+
+  </li>
+
+  
+<li  data-entity-id="194476" class="v-navigation-secondary-link">
+  <div class="v-navigation-secondary-link__link">
+                
+
+
+<a  onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:TopNavigation:Tutorials&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:TopNavigation:Tutorials&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:TopNavigation:Tutorials&quot;
+});" class="v-navigation-link" href="https://developer.here.com/tutorials?cid=www.here.com-topnav-menu-tutorials">
+  <span class="v-navigation-link__label">
+          Tutorials
+      </span>
+
+  </a>
+
+  
+    </div>
+
+  </li>
+
+  
+<li  data-entity-id="194481" class="v-navigation-secondary-link">
+  <div class="v-navigation-secondary-link__link">
+                
+
+
+<a  onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:TopNavigation:Code examples&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:TopNavigation:Code examples&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:TopNavigation:Code examples&quot;
+});" class="v-navigation-link" href="https://developer.here.com/examples?cid=www.here.com-topnav-menu-examples">
+  <span class="v-navigation-link__label">
+          Code examples
+      </span>
+
+  </a>
+
+  
+    </div>
+
+  </li>
+
+  
+<li  data-entity-id="194486" class="v-navigation-secondary-link">
+  <div class="v-navigation-secondary-link__link">
+                
+
+
+<a  onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:TopNavigation:Knowledge base&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:TopNavigation:Knowledge base&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:TopNavigation:Knowledge base&quot;
+});" class="v-navigation-link" href="https://knowledge.here.com/csm_kb">
+  <span class="v-navigation-link__label">
+          Knowledge base
+      </span>
+
+  </a>
+
+  
+    </div>
+
+  </li>
+
+
+  
+        </ul>
+</div>
+    </div>
+</div>
+
+
+  
+      </div>
+  </li>
+
+  
+<li  data-entity-id="194406" class="v-navigation-secondary-link">
+  <div class="v-navigation-secondary-link__link">
+                
+
+
+<a  onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:TopNavigation:Developer blog&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:TopNavigation:Developer blog&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:TopNavigation:Developer blog&quot;
+});" class="v-navigation-link" href="/learn/blog?type=developer">
+  <span class="v-navigation-link__label">
+          Developer blog
+      </span>
+
+  </a>
+
+  
+    </div>
+
+  </li>
+
+  
+<li  data-entity-id="219291" class="v-navigation-secondary-link">
+  <div class="v-navigation-secondary-link__link">
+                
+
+
+<a  onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:TopNavigation:Developer docs&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:TopNavigation:Developer docs&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:TopNavigation:Developer docs&quot;
+});" class="v-navigation-link" href="https://www.here.com/docs/">
+  <span class="v-navigation-link__label">
+          Developer docs
+      </span>
+
+  </a>
+
+  
+    </div>
+
+  </li>
+
+
+  
+        </ul>
+</div>
+    </div>
+</li>
+
+  
+
+
+<li  data-entity-id="194451" class="v-navigation-panel" tabindex="0">
+  <div class="v-navigation-panel__title">
+        
+
+
+<div  class="v-navigation-flyout-label v-navigation-flyout-label--main" data-flyout-id="194451">
+  <div class="v-navigation-flyout-label__text">
+                    About
+
+  
+        </div>
+  <div class="v-navigation-flyout-label__icon">
+    
+
+<span  class="hds-icon">
+  <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false"><path d="M10.1701 8L5.59009 3.41L7.00009 2L13.0001 8L7.00009 14L5.59009 12.59L10.1701 8Z"></path></svg>
+</span>
+  </div>
+</div>
+    </div>
+  <div class="v-navigation-panel__flyout">
+        
+
+
+<div  class="v-navigation-flyout" data-flyout-panel="194451" role="dialog">
+  <div class="v-navigation-flyout__back" data-flyout-id="194451">
+    
+
+<span  class="hds-icon">
+  <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false"><path d="M10.41 12.59L9 14L3 8L9 2L10.41 3.41L5.83 8L10.41 12.59Z"></path></svg>
+</span>
+                    About
+
+  
+        </div>
+  
+<div  class="divider">
+  <div class="divider__line"></div>
+</div>
+  <ul class="v-navigation-flyout__content">
+                    
+
+
+<a  onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:TopNavigation:About HERE&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:TopNavigation:About HERE&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:TopNavigation:About HERE&quot;
+});" class="v-navigation-link" href="/company/about-us">
+  <span class="v-navigation-link__label">
+          About HERE
+      </span>
+
+      <span class="v-navigation-link__icon">
+      
+
+<span  class="hds-icon">
+  <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false"><path fill-rule="evenodd" clip-rule="evenodd" d="M2 9V7H10.5L7.73 4.27L9 3L14 8L9 13L7.75 11.75L10.5 9H2Z"></path></svg>
+</span>
+    </span>
+  </a>
+
+  
+                
+<li  data-entity-id="194441" class="v-navigation-secondary-link">
+  <div class="v-navigation-secondary-link__link">
+                
+
+
+<a  onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:TopNavigation:Investors&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:TopNavigation:Investors&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:TopNavigation:Investors&quot;
+});" class="v-navigation-link" href="/about/investors">
+  <span class="v-navigation-link__label">
+          Investors
+      </span>
+
+  </a>
+
+  
+    </div>
+
+  </li>
+
+  
+<li  data-entity-id="194436" class="v-navigation-secondary-link">
+  <div class="v-navigation-secondary-link__link">
+                
+
+
+<a  onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:TopNavigation:Leadership&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:TopNavigation:Leadership&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:TopNavigation:Leadership&quot;
+});" class="v-navigation-link" href="/about/leadership">
+  <span class="v-navigation-link__label">
+          Leadership
+      </span>
+
+  </a>
+
+  
+    </div>
+
+  </li>
+
+  
+<li  data-entity-id="194446" class="v-navigation-secondary-link">
+  <div class="v-navigation-secondary-link__link">
+                
+
+
+<a  onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:TopNavigation:Offices&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:TopNavigation:Offices&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:TopNavigation:Offices&quot;
+});" class="v-navigation-link" href="/about/here-offices">
+  <span class="v-navigation-link__label">
+          Offices
+      </span>
+
+  </a>
+
+  
+    </div>
+
+  </li>
+
+  
+<li  data-entity-id="194421" class="v-navigation-secondary-link">
+  <div class="v-navigation-secondary-link__link">
+                
+
+
+<a  onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:TopNavigation:Press releases&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:TopNavigation:Press releases&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:TopNavigation:Press releases&quot;
+});" class="v-navigation-link" href="/about/press-releases">
+  <span class="v-navigation-link__label">
+          Press releases
+      </span>
+
+  </a>
+
+  
+    </div>
+
+  </li>
+
+  
+<li  data-entity-id="194431" class="v-navigation-secondary-link">
+  <div class="v-navigation-secondary-link__link">
+                
+
+
+<a  onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:TopNavigation:Sustainability&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:TopNavigation:Sustainability&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:TopNavigation:Sustainability&quot;
+});" class="v-navigation-link" href="/about/sustainability">
+  <span class="v-navigation-link__label">
+          Sustainability
+      </span>
+
+  </a>
+
+  
+    </div>
+
+  </li>
+
+  
+<li  data-entity-id="201881" class="v-navigation-secondary-link">
+  <div class="v-navigation-secondary-link__link">
+                
+
+
+<a  onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:TopNavigation:Careers&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:TopNavigation:Careers&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:TopNavigation:Careers&quot;
+});" class="v-navigation-link" href="/about/careers">
+  <span class="v-navigation-link__label">
+          Careers
+      </span>
+
+  </a>
+
+  
+    </div>
+
+  </li>
+
+
+  
+        </ul>
+</div>
+    </div>
+</li>
+
+
+  
+              </ul>
+          </div>
+        </div>
+        <div class="v-navigation__menu-cta">
+                    
+<div class="cta-links-wrapper">
+  <div  class="cta-links cta-links--grid cta-links--cta-cta cta-links--reversed">
+              
+
+
+
+
+
+
+
+<a  target="" rel="nofollow" keyword="button" onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:button:contact-us:top-nav-contact-us-cta:/contact&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:button:contact-us:top-nav-contact-us-cta:/contact&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:button:contact-us:top-nav-contact-us-cta:/contact&quot;
+});" class="cta cta--with-label cta--primary cta--button cta--size-medium with-animation"
+  href="/contact"
+  aria-label="Call to action button for Contact us"
+>
+  <span class="cta-background"></span>
+
+  <span class="cta-content">
+    
+          <span class="cta-label">
+      Contact us
+    </span>
+      </span>
+</a>
+
+          
+
+
+
+
+
+
+
+<a  target="_self" rel="nofollow" keyword="button" onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:button:sign-up-to-start-building:top-nav-start-building-cta:https://platform.here.com/sign-up?step=verify-identity&amp;aid=www.here.com-top-nav-start-building&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:button:sign-up-to-start-building:top-nav-start-building-cta:https://platform.here.com/sign-up?step=verify-identity&amp;aid=www.here.com-top-nav-start-building&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:button:sign-up-to-start-building:top-nav-start-building-cta:https://platform.here.com/sign-up?step=verify-identity&amp;aid=www.here.com-top-nav-start-building&quot;
+});" class="cta cta--with-label cta--secondary cta--button cta--size-medium with-animation"
+  href="https://platform.here.com/sign-up?step=verify-identity&amp;aid=www.here.com-top-nav-start-building"
+  aria-label="Call to action button for Sign up to start building"
+>
+  <span class="cta-background"></span>
+
+  <span class="cta-content">
+    
+          <span class="cta-label">
+      Sign up to start building
+    </span>
+      </span>
+</a>
+
+        </div>
+</div>
+
+  
+  
+        </div>
+      </div>
+      <div class="v-navigation__cta">
+                  
+<div class="cta-links-wrapper">
+  <div  class="cta-links cta-links--grid cta-links--cta-cta cta-links--reversed">
+              
+
+
+
+
+
+
+
+<a  target="" rel="nofollow" keyword="button" onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:button:contact-us:top-nav-contact-us-cta:/contact&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:button:contact-us:top-nav-contact-us-cta:/contact&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:button:contact-us:top-nav-contact-us-cta:/contact&quot;
+});" class="cta cta--with-label cta--primary cta--button cta--size-medium with-animation"
+  href="/contact"
+  aria-label="Call to action button for Contact us"
+>
+  <span class="cta-background"></span>
+
+  <span class="cta-content">
+    
+          <span class="cta-label">
+      Contact us
+    </span>
+      </span>
+</a>
+
+          
+
+
+
+
+
+
+
+<a  target="_self" rel="nofollow" keyword="button" onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:button:sign-up-to-start-building:top-nav-start-building-cta:https://platform.here.com/sign-up?step=verify-identity&amp;aid=www.here.com-top-nav-start-building&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:button:sign-up-to-start-building:top-nav-start-building-cta:https://platform.here.com/sign-up?step=verify-identity&amp;aid=www.here.com-top-nav-start-building&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:button:sign-up-to-start-building:top-nav-start-building-cta:https://platform.here.com/sign-up?step=verify-identity&amp;aid=www.here.com-top-nav-start-building&quot;
+});" class="cta cta--with-label cta--secondary cta--button cta--size-medium with-animation"
+  href="https://platform.here.com/sign-up?step=verify-identity&amp;aid=www.here.com-top-nav-start-building"
+  aria-label="Call to action button for Sign up to start building"
+>
+  <span class="cta-background"></span>
+
+  <span class="cta-content">
+    
+          <span class="cta-label">
+      Sign up to start building
+    </span>
+      </span>
+</a>
+
+        </div>
+</div>
+
+  
+        </div>
+              <div class="v-navigation__search">
+          
+
+
+<div  class="v-navigation-search">
+  <div class="v-navigation-search__icons">
+    <div class="v-navigation-search__icon v-navigation-search__icon--desktop">
+      
+
+<span  class="hds-icon">
+  <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false"><path d="M15 13.59L11.89 10.47C12.6149 9.45847 13.0033 8.24449 13 7C13 5.81331 12.6481 4.65328 11.9888 3.66658C11.3295 2.67989 10.3925 1.91085 9.2961 1.45673C8.19975 1.0026 6.99335 0.88378 5.82946 1.11529C4.66558 1.3468 3.59648 1.91825 2.75736 2.75736C1.91825 3.59648 1.3468 4.66558 1.11529 5.82946C0.88378 6.99335 1.0026 8.19975 1.45673 9.2961C1.91085 10.3925 2.67989 11.3295 3.66658 11.9888C4.65328 12.6481 5.81331 13 7 13C8.24449 13.0033 9.45847 12.6149 10.47 11.89L13.59 15L15 13.59ZM7 11C6.20888 11 5.43552 10.7654 4.77772 10.3259C4.11993 9.88636 3.60724 9.26164 3.30448 8.53074C3.00173 7.79983 2.92252 6.99557 3.07686 6.21964C3.2312 5.44372 3.61217 4.73099 4.17158 4.17158C4.73099 3.61217 5.44372 3.2312 6.21964 3.07686C6.99557 2.92252 7.79983 3.00173 8.53074 3.30448C9.26164 3.60724 9.88636 4.11993 10.3259 4.77772C10.7654 5.43552 11 6.20888 11 7C11 8.06087 10.5786 9.07828 9.82843 9.82843C9.07828 10.5786 8.06087 11 7 11V11Z"></path></svg>
+</span>
+    </div>
+
+    <div class="v-navigation-search__icon v-navigation-search__icon--mobile">
+      
+
+<span  class="hds-icon">
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false"><path d="M21.21 19.79L17.31 15.9C18.407 14.5025 19.0022 12.7767 19 11C19 9.41775 18.5308 7.87103 17.6518 6.55544C16.7727 5.23985 15.5233 4.21447 14.0615 3.60897C12.5997 3.00347 10.9911 2.84504 9.43928 3.15372C7.88743 3.4624 6.46197 4.22433 5.34315 5.34315C4.22433 6.46197 3.4624 7.88743 3.15372 9.43928C2.84504 10.9911 3.00347 12.5997 3.60897 14.0615C4.21447 15.5233 5.23985 16.7727 6.55544 17.6518C7.87103 18.5308 9.41775 19 11 19C12.7767 19.0022 14.5025 18.407 15.9 17.31L19.79 21.21L21.21 19.79ZM5 11C5 9.81332 5.3519 8.65328 6.01119 7.66658C6.67047 6.67989 7.60755 5.91085 8.7039 5.45673C9.80026 5.0026 11.0067 4.88378 12.1705 5.11529C13.3344 5.3468 14.4035 5.91825 15.2426 6.75736C16.0818 7.59648 16.6532 8.66558 16.8847 9.82946C17.1162 10.9933 16.9974 12.1997 16.5433 13.2961C16.0892 14.3925 15.3201 15.3295 14.3334 15.9888C13.3467 16.6481 12.1867 17 11 17C9.4087 17 7.88258 16.3679 6.75736 15.2426C5.63214 14.1174 5 12.5913 5 11Z"></path></svg>
+</span>
+    </div>
+  </div>
+
+  <div class="v-navigation-search__form">
+    <div class="v-navigation-search__form-search-icons">
+      <div class="v-navigation-search__form-search-icon v-navigation-search__form-search-icon--mobile">
+        
+
+<span  class="hds-icon">
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false"><path d="M21.21 19.79L17.31 15.9C18.407 14.5025 19.0022 12.7767 19 11C19 9.41775 18.5308 7.87103 17.6518 6.55544C16.7727 5.23985 15.5233 4.21447 14.0615 3.60897C12.5997 3.00347 10.9911 2.84504 9.43928 3.15372C7.88743 3.4624 6.46197 4.22433 5.34315 5.34315C4.22433 6.46197 3.4624 7.88743 3.15372 9.43928C2.84504 10.9911 3.00347 12.5997 3.60897 14.0615C4.21447 15.5233 5.23985 16.7727 6.55544 17.6518C7.87103 18.5308 9.41775 19 11 19C12.7767 19.0022 14.5025 18.407 15.9 17.31L19.79 21.21L21.21 19.79ZM5 11C5 9.81332 5.3519 8.65328 6.01119 7.66658C6.67047 6.67989 7.60755 5.91085 8.7039 5.45673C9.80026 5.0026 11.0067 4.88378 12.1705 5.11529C13.3344 5.3468 14.4035 5.91825 15.2426 6.75736C16.0818 7.59648 16.6532 8.66558 16.8847 9.82946C17.1162 10.9933 16.9974 12.1997 16.5433 13.2961C16.0892 14.3925 15.3201 15.3295 14.3334 15.9888C13.3467 16.6481 12.1867 17 11 17C9.4087 17 7.88258 16.3679 6.75736 15.2426C5.63214 14.1174 5 12.5913 5 11Z"></path></svg>
+</span>
+      </div>
+
+      <div class="v-navigation-search__form-search-icon v-navigation-search__form-search-icon--desktop">
+        
+
+<span  class="hds-icon">
+  <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false"><path d="M15 13.59L11.89 10.47C12.6149 9.45847 13.0033 8.24449 13 7C13 5.81331 12.6481 4.65328 11.9888 3.66658C11.3295 2.67989 10.3925 1.91085 9.2961 1.45673C8.19975 1.0026 6.99335 0.88378 5.82946 1.11529C4.66558 1.3468 3.59648 1.91825 2.75736 2.75736C1.91825 3.59648 1.3468 4.66558 1.11529 5.82946C0.88378 6.99335 1.0026 8.19975 1.45673 9.2961C1.91085 10.3925 2.67989 11.3295 3.66658 11.9888C4.65328 12.6481 5.81331 13 7 13C8.24449 13.0033 9.45847 12.6149 10.47 11.89L13.59 15L15 13.59ZM7 11C6.20888 11 5.43552 10.7654 4.77772 10.3259C4.11993 9.88636 3.60724 9.26164 3.30448 8.53074C3.00173 7.79983 2.92252 6.99557 3.07686 6.21964C3.2312 5.44372 3.61217 4.73099 4.17158 4.17158C4.73099 3.61217 5.44372 3.2312 6.21964 3.07686C6.99557 2.92252 7.79983 3.00173 8.53074 3.30448C9.26164 3.60724 9.88636 4.11993 10.3259 4.77772C10.7654 5.43552 11 6.20888 11 7C11 8.06087 10.5786 9.07828 9.82843 9.82843C9.07828 10.5786 8.06087 11 7 11V11Z"></path></svg>
+</span>
+      </div>
+    </div>
+
+        <form class="here-navigation-v3-search" data-drupal-selector="here-navigation-v3-search" novalidate="novalidate" data-profile="herecomcorporate" data-section="search" action="/site-search" method="post" id="here-navigation-v3-search" accept-charset="UTF-8">
+  <div class="js-form-item form-item js-form-type-textfield form-item-text js-form-item-text">
+      <label for="edit-text" class="js-form-required form-required">Search</label>
+        <input class="navigation-v3-search__form-input v-navigation-search__form-input form-text required" autocomplete="off" data-drupal-selector="edit-text" type="text" id="edit-text" name="text" value="" size="60" maxlength="128" placeholder="Search" required="required" aria-required="true" />
+
+        </div>
+<input autocomplete="off" data-drupal-selector="form-tioy2qaid5om4j4kubde2qqosyianfqauyoja7cxd8m" type="hidden" name="form_build_id" value="form-TioY2QAId5om4J4KubdE2qQOSYIAnfqAUyoJa7CXD8M" />
+<input data-drupal-selector="edit-here-navigation-v3-search" type="hidden" name="form_id" value="here_navigation_v3_search" />
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><input data-drupal-selector="edit-submit" type="submit" id="edit-submit" name="op" value="Search" class="button js-form-submit form-submit" />
+</div>
+
+</form>
+
+  
+    <div class="v-navigation-search__close">
+      
+
+<span  class="hds-icon">
+  <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false"><path d="M12.59 14L8 9.39L3.41 14L2 12.54L6.56 8L2 3.41L3.41 2L8 6.56L12.54 2L14 3.41L9.39 8L14 12.59L12.59 14Z"></path></svg>
+</span>
+    </div>
+  </div>
+</div>
+
+        </div>
+            <div class="v-navigation__hamburger-menu">
+        
+<a  class="hamburger-menu" href="#" aria-label="Open mobile navigation">
+  <span class="hamburger-menu__lines"></span>
+  <span class="hamburger-menu__cross"></span>
+</a>
+      </div>
+    </div>
+  </div>
+  <div class="v-navigation__overlay"></div>
+  <div class="v-navigation__most-popular">
+              
+
+
+<div  class="v-navigation-popular-searches">
+  <div class="container">
+    <div class="v-navigation-popular-searches__title">
+          Popular searches
+      </div>
+  </div>
+
+  <div class="v-navigation-popular-searches__items">
+              
+
+
+<div  class="navigation-v3-popular-item">
+      <a href="/site-search?text=partners" class="navigation-v3-popular-item__link">Partners</a>
+  
+  <div class="container">
+    <div class="navigation-v3-popular-item__content">
+      <div class="navigation-v3-popular-item__icon">
+        
+
+<span  class="hds-icon">
+  <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false"><path d="M15 13.59L11.89 10.47C12.6149 9.45847 13.0033 8.24449 13 7C13 5.81331 12.6481 4.65328 11.9888 3.66658C11.3295 2.67989 10.3925 1.91085 9.2961 1.45673C8.19975 1.0026 6.99335 0.88378 5.82946 1.11529C4.66558 1.3468 3.59648 1.91825 2.75736 2.75736C1.91825 3.59648 1.3468 4.66558 1.11529 5.82946C0.88378 6.99335 1.0026 8.19975 1.45673 9.2961C1.91085 10.3925 2.67989 11.3295 3.66658 11.9888C4.65328 12.6481 5.81331 13 7 13C8.24449 13.0033 9.45847 12.6149 10.47 11.89L13.59 15L15 13.59ZM7 11C6.20888 11 5.43552 10.7654 4.77772 10.3259C4.11993 9.88636 3.60724 9.26164 3.30448 8.53074C3.00173 7.79983 2.92252 6.99557 3.07686 6.21964C3.2312 5.44372 3.61217 4.73099 4.17158 4.17158C4.73099 3.61217 5.44372 3.2312 6.21964 3.07686C6.99557 2.92252 7.79983 3.00173 8.53074 3.30448C9.26164 3.60724 9.88636 4.11993 10.3259 4.77772C10.7654 5.43552 11 6.20888 11 7C11 8.06087 10.5786 9.07828 9.82843 9.82843C9.07828 10.5786 8.06087 11 7 11V11Z"></path></svg>
+</span>
+      </div>
+
+      <div class="navigation-v3-popular-item__text">
+            Partners
+        </div>
+    </div>
+  </div>
+</div>
+
+        </div>
+</div>
+
+  
+    </div>
+
+  <div class="v-navigation__scroll-indicator">
+    
+
+
+<div  class="blog-scroll-indicator">
+  <div class="blog-scroll-indicator__progress-bar"></div>
+</div>
+  </div>
+</nav>
+
+  </div>
+
+  </div>
+
+
+<div  class="layout-container">
+
+  
+
+  <main role="main" class="main">
+    <div class="main-content">
+      
+<div  class="region region--content">
+      <div data-drupal-messages-fallback class="hidden"></div>
+  
+
+<div  id="block-here-com-theme-content" data-block-plugin-id="system_main_block" class="block block--system-main-block">
+  
+    
+      
+
+
+<div data-anchor="#how-a-traffic-management-system-can-reduce-emissions-and-congestion--and-boost-safety" data-entity-id="64371" class="blog anchorable">
+  
+  
+  <div class="blog__breadcrumbs">
+        
+
+
+<div class="breadcrumbs">
+  <div class="breadcrumbs__items container">
+          <div class="breadcrumbs__item">
+        <a href="/learn/blog?type=here360" class="link">HERE360 news</a>
+      </div>
+              <div class="breadcrumbs__item">
+          
+
+<span  class="hds-icon">
+  <svg width="8" height="8" viewBox="0 0 8 8" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false"><path d="M7 4L3 8L2 7L5 4L2 1L3 0L7 4Z"></path></svg>
+</span>
+        </div>
+                <div class="breadcrumbs__item">
+        How a traffic management system can reduce emissions and congestion — and boost safety
+      </div>
+            </div>
+</div>
+
+    </div>
+  <div class="blog__container container">
+    <div class="blog__row row">
+      <main class="blog__main col-md-8">
+        <div class="blog__header">
+          <div class="blog__details-wrapper">
+            <div class="blog__details">
+                          
+
+<a  data-type="here360" data-category="connected-driving" class="category-link" href="/learn/blog?type=here360&amp;category=connected-driving">
+      
+<span  class="tag tag--blog" >
+  Connected Driving
+</span>
+  </a>
+
+
+  
+<span  class="attribute-l attribute-l--estimated-read-time">
+      5 min read
+  </span>
+  
+
+<time  class="datetime"
+      >
+  14 April 2022
+</time>
+
+  
+              </div>
+            <div class="blog__share-top">
+                  
+
+
+<div  class="blog-social-share">
+  
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.here.com/learn/blog/yunex-traffic" target="_blank" aria-label="Share blog post on Facebook"  class="blog-social-share__link">
+    
+
+<span  class="hds-icon">
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false"><path d="M24 12C24 5.37188 18.6281 0 12 0C5.37188 0 0 5.37188 0 12C0 17.9906 4.3875 22.9547 10.125 23.8547V15.4688H7.07812V12H10.125V9.35625C10.125 6.34922 11.9156 4.6875 14.6578 4.6875C15.9703 4.6875 17.3438 4.92188 17.3438 4.92188V7.875H15.8297C14.3391 7.875 13.875 8.80078 13.875 9.75V12H17.2031L16.6711 15.4688H13.875V23.8547C19.6125 22.9547 24 17.9906 24 12Z"/></svg>
+</span>
+  </a>
+
+  <a href="https://twitter.com/intent/tweet?&url=https://www.here.com/learn/blog/yunex-traffic" target="_blank" aria-label="Share blog post on Twitter" class="blog-social-share__link">
+    
+
+<span  class="hds-icon">
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false"><path d="M3 24H21C22.656 24 24 22.656 24 21V3C24 1.344 22.656 0 21 0H3C1.344 0 0 1.344 0 3V21C0 22.656 1.344 24 3 24ZM17.97 9.34196C17.97 13.404 14.874 18.096 9.216 18.096C7.482 18.096 5.862 17.586 4.506 16.722C4.746 16.752 4.992 16.764 5.238 16.764C6.678 16.764 8.004 16.272 9.06 15.444C7.716 15.42 6.576 14.532 6.186 13.308C6.372 13.344 6.564 13.362 6.762 13.362C7.044 13.362 7.314 13.326 7.572 13.254C6.168 12.972 5.106 11.724 5.106 10.236V10.194C5.52 10.422 5.994 10.56 6.498 10.578C5.676 10.026 5.13 9.08396 5.13 8.01596C5.13 7.45196 5.28 6.92396 5.544 6.46796C7.062 8.32796 9.33 9.55796 11.886 9.68396C11.838 9.45596 11.808 9.22196 11.808 8.98196C11.808 7.28396 13.188 5.90396 14.886 5.90396C15.768 5.90396 16.566 6.27596 17.13 6.87596C17.832 6.73796 18.492 6.48596 19.086 6.13196C18.852 6.85196 18.366 7.45796 17.73 7.83596C18.354 7.75796 18.948 7.59596 19.5 7.34996C19.086 7.96796 18.564 8.51396 17.964 8.94596C17.97 9.07796 17.97 9.20996 17.97 9.34196Z"/></svg>
+</span>
+  </a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://www.here.com/learn/blog/yunex-traffic" target="_blank" aria-label="Share blog post on LinkedIn" class="blog-social-share__link">
+    
+
+<span  class="hds-icon">
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false"><path d="M1.48722 0C8.49399 0 15.5008 0 22.5075 0C22.5225 0.0149808 22.5375 0.0389501 22.5525 0.0389501C23.2957 0.137823 24.003 0.871883 24 1.86661C23.985 8.62894 23.982 15.3883 24 22.1506C24.003 23.0884 23.2897 24.0082 22.1329 24.0022C19.0941 23.9873 16.0552 23.9963 13.0133 23.9963C9.27318 23.9963 5.53005 23.9963 1.7899 23.9963C0.785939 23.9963 0.000749227 23.2412 0.000749227 22.2645C0.000749227 15.4212 -0.00224768 8.57801 0.00374614 1.73478C0.00674304 1.00072 0.37836 0.479386 1.03768 0.164789C1.18153 0.0958771 1.33737 0.0539309 1.48722 0ZM12.8155 10.5675C12.7975 10.5615 12.7796 10.5525 12.7586 10.5465C12.7586 10.109 12.7526 9.66861 12.7616 9.23117C12.7646 9.05739 12.7166 9.00346 12.5368 9.00346C11.5508 9.01245 10.5649 9.01245 9.57887 9.00346C9.40804 9.00346 9.34811 9.03942 9.34811 9.22218C9.3541 12.8865 9.3541 16.5508 9.34811 20.2151C9.34811 20.4039 9.41704 20.4308 9.58187 20.4308C10.5978 20.4248 11.6138 20.4218 12.6297 20.4338C12.8455 20.4368 12.9174 20.3949 12.9174 20.1582C12.9054 18.2856 12.9114 16.413 12.9114 14.5404C12.9114 14.1748 12.9414 13.8093 13.0223 13.4528C13.283 12.2992 14.0533 11.7449 15.24 11.8498C16.0372 11.9187 16.5107 12.3082 16.7325 13.0752C16.8673 13.5456 16.9003 14.031 16.9003 14.5134C16.9063 16.41 16.9063 18.3035 16.8973 20.2001C16.8973 20.3829 16.9363 20.4398 17.1281 20.4368C18.15 20.4278 19.175 20.4278 20.1969 20.4368C20.3887 20.4398 20.4457 20.3949 20.4457 20.1941C20.4397 18.2107 20.4487 16.2242 20.4457 14.2408C20.4457 13.3988 20.4067 12.5569 20.2209 11.73C19.9152 10.3607 19.2049 9.34203 17.7934 8.93155C17.206 8.76077 16.6066 8.72182 15.9982 8.73081C15.0542 8.7428 14.2361 9.07237 13.5348 9.69857C13.2471 9.94426 13.0133 10.2439 12.8155 10.5675ZM3.55808 14.7351C3.55808 16.5628 3.56108 18.3904 3.55508 20.2181C3.55508 20.3859 3.59704 20.4338 3.76487 20.4308C4.81079 20.4218 5.85671 20.4248 6.89963 20.4308C7.06146 20.4308 7.11541 20.3919 7.11541 20.2211C7.10942 16.5568 7.10942 12.8925 7.11541 9.23117C7.11541 9.06039 7.07345 9.00346 6.89064 9.00346C5.8597 9.01245 4.82877 9.01245 3.80083 9.00346C3.60303 9.00047 3.55209 9.0514 3.55209 9.24915C3.56108 11.0798 3.55808 12.9075 3.55808 14.7351ZM7.39712 5.37811C7.39712 4.25455 6.47407 3.32574 5.35323 3.32274C4.2174 3.31975 3.28536 4.24556 3.28236 5.37811C3.28236 6.49867 4.20841 7.43048 5.32925 7.43647C6.46508 7.43647 7.39412 6.51066 7.39712 5.37811Z"/></svg>
+</span>
+  </a>
+
+  <a href="mailto:?subject=How a traffic management system can reduce emissions and congestion — and boost safety&body=https://www.here.com/learn/blog/yunex-traffic" aria-label="Share blog post by email" class="blog-social-share__link">
+    
+
+<span  class="hds-icon">
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false"><path fill-rule="evenodd" clip-rule="evenodd" d="M22 5.43V18C22 18.5304 21.7893 19.0391 21.4142 19.4142C21.0391 19.7893 20.5304 20 20 20H4C3.46957 20 2.96086 19.7893 2.58579 19.4142C2.21071 19.0391 2 18.5304 2 18V5.43L9.86 13.43C10.4225 13.9918 11.185 14.3074 11.98 14.3074C12.775 14.3074 13.5375 13.9918 14.1 13.43L22 5.43ZM3.4 4H20.6C15.34 9.33333 12.7067 12.0167 12.7 12.05C12.5126 12.2363 12.2592 12.3408 11.995 12.3408C11.7308 12.3408 11.4774 12.2363 11.29 12.05L3.4 4Z"></path></svg>
+</span>
+  </a>
+</div>
+
+              </div>
+          </div>
+          <div class="blog__heading">
+                
+                  
+          
+    <h1  class="heading">
+    How a traffic management system can reduce emissions and congestion — and boost safety
+  </h1>
+
+  
+            </div>
+        </div>
+        <div class="blog__image">
+                    
+<div  class="field field--name-field-main-image field--type-image">
+    <div class="field__items">
+                  <div class="responsive-image">
+      <div class="lazy-load-animation">
+      <div class="gradient"></div>
+    </div>
+  
+            <svg  class="large" width="1500" height="1000" xmlns="http://www.w3.org/2000/svg" data-min-width="1280">
+  <rect width="100%" height="100%" fill="transparent"></rect>
+</svg>
+
+          <svg  class="medium" width="1500" height="1000" xmlns="http://www.w3.org/2000/svg" data-min-width="1024">
+  <rect width="100%" height="100%" fill="transparent"></rect>
+</svg>
+
+          <svg  class="small" width="1500" height="1000" xmlns="http://www.w3.org/2000/svg" data-min-width="768">
+  <rect width="100%" height="100%" fill="transparent"></rect>
+</svg>
+
+          <svg  class="minimal" width="1500" height="1000" xmlns="http://www.w3.org/2000/svg" data-min-width="767">
+  <rect width="100%" height="100%" fill="transparent"></rect>
+</svg>
+
+      
+  
+<picture  data-uuid="5682c4d9-db6b-4f15-b2af-16c6ced4cfe9" class="picture lazy-load">
+            
+<source
+   type="image/webp" media="all and (min-width: 1280px)" data-label="large" srcset="" data-srcset="/sites/g/files/odxslz256/files/styles/blog_post_large/public/2022-06/traffic-congestion-automotive-car-cars-blog.webp?itok=XE1FWnUx 0q, /sites/g/files/odxslz256/files/styles/blog_post_large/public/2022-06/traffic-congestion-automotive-car-cars-blog.webp?itok=XE1FWnUx 1x, /sites/g/files/odxslz256/files/styles/blog_post_large_retina/public/2022-06/traffic-congestion-automotive-car-cars-blog.webp?itok=kqH9-MrF 2x" class="img"
+              alt="How a traffic management system can reduce emissions and congestion — and boost safety"
+      >
+          
+<source
+   type="image/jpeg" media="all and (min-width: 1280px)" data-label="large" srcset="" data-srcset="/sites/g/files/odxslz256/files/styles/blog_post_large/public/2022-06/traffic-congestion-automotive-car-cars-blog.jpeg?itok=CXsoqa-L 0q, /sites/g/files/odxslz256/files/styles/blog_post_large/public/2022-06/traffic-congestion-automotive-car-cars-blog.jpeg?itok=CXsoqa-L 1x, /sites/g/files/odxslz256/files/styles/blog_post_large_retina/public/2022-06/traffic-congestion-automotive-car-cars-blog.jpeg?itok=ak5Xr_4A 2x" class="img"
+              alt="How a traffic management system can reduce emissions and congestion — and boost safety"
+      >
+          
+<source
+   type="image/webp" media="all and (min-width: 1024px)" data-label="medium" srcset="" data-srcset="/sites/g/files/odxslz256/files/styles/blog_post_medium/public/2022-06/traffic-congestion-automotive-car-cars-blog.webp?itok=pemqRBd- 0q, /sites/g/files/odxslz256/files/styles/blog_post_medium/public/2022-06/traffic-congestion-automotive-car-cars-blog.webp?itok=pemqRBd- 1x, /sites/g/files/odxslz256/files/styles/blog_post_medium_retina/public/2022-06/traffic-congestion-automotive-car-cars-blog.webp?itok=XyKOYnrD 2x" class="img"
+              alt="How a traffic management system can reduce emissions and congestion — and boost safety"
+      >
+          
+<source
+   type="image/jpeg" media="all and (min-width: 1024px)" data-label="medium" srcset="" data-srcset="/sites/g/files/odxslz256/files/styles/blog_post_medium/public/2022-06/traffic-congestion-automotive-car-cars-blog.jpeg?itok=oGZtj0_r 0q, /sites/g/files/odxslz256/files/styles/blog_post_medium/public/2022-06/traffic-congestion-automotive-car-cars-blog.jpeg?itok=oGZtj0_r 1x, /sites/g/files/odxslz256/files/styles/blog_post_medium_retina/public/2022-06/traffic-congestion-automotive-car-cars-blog.jpeg?itok=VA-HWNfU 2x" class="img"
+              alt="How a traffic management system can reduce emissions and congestion — and boost safety"
+      >
+          
+<source
+   type="image/webp" media="all and (min-width: 768px)" data-label="small" srcset="" data-srcset="/sites/g/files/odxslz256/files/styles/blog_post_small/public/2022-06/traffic-congestion-automotive-car-cars-blog.webp?itok=bvlGBLcm 0q, /sites/g/files/odxslz256/files/styles/blog_post_small/public/2022-06/traffic-congestion-automotive-car-cars-blog.webp?itok=bvlGBLcm 1x, /sites/g/files/odxslz256/files/styles/blog_post_small_retina/public/2022-06/traffic-congestion-automotive-car-cars-blog.webp?itok=QfvJ7_AU 2x" class="img"
+              alt="How a traffic management system can reduce emissions and congestion — and boost safety"
+      >
+          
+<source
+   type="image/jpeg" media="all and (min-width: 768px)" data-label="small" srcset="" data-srcset="/sites/g/files/odxslz256/files/styles/blog_post_small/public/2022-06/traffic-congestion-automotive-car-cars-blog.jpeg?itok=W22phaZr 0q, /sites/g/files/odxslz256/files/styles/blog_post_small/public/2022-06/traffic-congestion-automotive-car-cars-blog.jpeg?itok=W22phaZr 1x, /sites/g/files/odxslz256/files/styles/blog_post_small_retina/public/2022-06/traffic-congestion-automotive-car-cars-blog.jpeg?itok=p-vaJhla 2x" class="img"
+              alt="How a traffic management system can reduce emissions and congestion — and boost safety"
+      >
+          
+<source
+   type="image/webp" media="all and (max-width: 767px)" data-label="minimal" srcset="" data-srcset="/sites/g/files/odxslz256/files/styles/blog_post_xs/public/2022-06/traffic-congestion-automotive-car-cars-blog.webp?itok=zGhAvhvX 0q, /sites/g/files/odxslz256/files/styles/blog_post_xs/public/2022-06/traffic-congestion-automotive-car-cars-blog.webp?itok=zGhAvhvX 1x, /sites/g/files/odxslz256/files/styles/blog_post_small_retina/public/2022-06/traffic-congestion-automotive-car-cars-blog.webp?itok=QfvJ7_AU 2x" class="img"
+              alt="How a traffic management system can reduce emissions and congestion — and boost safety"
+      >
+          
+<source
+   type="image/jpeg" media="all and (max-width: 767px)" data-label="minimal" srcset="" data-srcset="/sites/g/files/odxslz256/files/styles/blog_post_xs/public/2022-06/traffic-congestion-automotive-car-cars-blog.jpeg?itok=OSn6qd3H 0q, /sites/g/files/odxslz256/files/styles/blog_post_xs/public/2022-06/traffic-congestion-automotive-car-cars-blog.jpeg?itok=OSn6qd3H 1x, /sites/g/files/odxslz256/files/styles/blog_post_small_retina/public/2022-06/traffic-congestion-automotive-car-cars-blog.jpeg?itok=p-vaJhla 2x" class="img"
+              alt="How a traffic management system can reduce emissions and congestion — and boost safety"
+      >
+        
+<img
+   class="img"
+              alt="How a traffic management system can reduce emissions and congestion — and boost safety"
+          data-src="/sites/g/files/odxslz256/files/styles/blog_post_xs/public/2022-06/traffic-congestion-automotive-car-cars-blog.jpeg?itok=OSn6qd3H"
+  >
+</picture>
+</div>
+
+            </div>
+</div>
+
+  
+          </div>
+        <div class="blog__subheading">
+              
+          </div>
+        <div class="blog__content">
+                    
+    
+  <div  class="text-long"  data-profile="herecomcorporate" data-section="How a traffic management system can reduce emissions and congestion — and boost safety"><h2>HERE Probe Data powers Yunex Traffic's tool for managing gridlock — and driving efficient routing, cleaner air and smoother driving in the process.</h2>
+
+
+<p><a href="/node/69956" data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="cd7e08ef-abe1-4b44-b629-c28c93c5fd6c">Traffic jams</a> are a nuisance for individual drivers and <a href="/node/49141" data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="5349dca9-f25b-41da-a1d6-611fbb0e3610">fleets</a> alike. But what if there was a way to use the data we can now collect on traffic movement to reduce them?</p>
+
+<p>A partnership between <a href="https://www.yunextraffic.com/global/en/">Yunex Traffic</a> and HERE aims to do exactly that. Using <a href="/node/53441" data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="a0cefa24-bfb5-484d-b01c-360c400be723">HERE Probe Data</a>, the tool can help create a detailed picture of how vehicles move around cities. This information can be used to improve the traffic flow, reduce emissions and make roads safer.</p>
+
+<p>“We are in a process of transformation now where we are digitizing the entire road infrastructure," said Martin Schulze Suedhoff, Head of Urban Solutions at Yunex Traffic. “That includes hardware such as signal heads, but also making use of all the data that are available to optimize the traffic flow, make it safer and make it greener."</p>
+
+<p> </p>
+
+<p><img src="/sites/g/files/odxslz256/files/2022-06/sankey-yunex-blog.jpg" /></p>
+
+<p> </p>
+
+<p><em>This diagram shows how traffic turned at an intersection in Wiesbaden over one week.</em></p>
+
+<p> </p>
+
+<p> </p>
+
+<p><span>Yunex Traffic, which started as a wing of </span><a href="https://www.mobility.siemens.com/uk/en.html"><span>Siemens Mobility</span></a><span> but is now a separate company, started with the data it collects from detectors at major intersections. But to get a full picture of traffic movement, they needed data from smaller intersections and other stretches of road. </span></p>
+
+<p><span>“That is where HERE Probe Data comes into play, to provide this missing piece," Schulze Suedhoff explained. “The complementary data gives us a 360-degree view of the intersection." The HERE data can also help create a picture of what kinds of vehicles are using the roads, and the lengths of jams they are in.</span></p>
+
+<p><span>Armed with this data, city authorities can then plan interventions to tackle <a href="/node/69676" data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="ab37958b-5f43-408a-afec-432136bbf899">congestion</a>. This information can also be used to find out where speeding hotspots are so that cameras or other traffic-calming measures can be placed there.</span></p>
+
+<p><span>“Having speed cameras brings the average speed down to a reasonable level, even when people do not get speeding tickets," Schulze Suedhoff said. Being able to see the speeding hotspots at a glance in a Yunex Traffic report saves municipal departments hours of time monitoring the roads to gather this information.</span></p>
+
+<p><span><img src="/sites/g/files/odxslz256/files/2022-06/ultra-low-emission-zone-london-ulez-traffic-blog.jpg" /></span></p>
+
+<p><em>London has used Yunex Traffic to decide where to place ultra-low emissions zones like this one.</em></p>
+
+<h2><span><span>The Big Un-Smoke</span></span></h2>
+
+<p><span>There are multiple advantages to reducing speeding and <a href="/node/69956" data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="cd7e08ef-abe1-4b44-b629-c28c93c5fd6c">traffic congestion</a> on our streets. The most obvious one is that fewer speeding vehicles means fewer collisions and <a href="/node/68686" data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="f07b1e5f-c5ff-4886-b2ed-fb13acff5953">safer roads.</a> When traffic flows more smoothly and without congestion, vehicles also produce fewer <a href="/node/68416" data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="0aa669c2-b970-475e-b754-49985e9f82b8">emissions</a> and ultimately the air is cleaner.</span></p>
+
+<p>Yunex Traffic has already worked with cities including <a href="https://www.yunextraffic.com/uk/en/portfolio/clean-air-zones">London, UK</a>, to use this data for planning measures to alleviate gridlock. “Before planning a congestion charge or low emissions zone, for example, you need to understand what the exact traffic flow in the city is," Schulze Suedhoff said. “You cannot get all that from physical detectors, which is where the data from HERE gives us more visibility and enhances our picture."</p>
+
+<p>Getting an accurate overview not only helps cities understand what is happening now, but to predict and plan. This has become critical as many seek to <a href="/node/68976" data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="17aded15-3ad0-461a-9d43-ae0a90212d14">redesign their streets</a>, giving priority to different kinds of road users and more sustainable modes of transportation. Yunex Traffic's solution can be used to create simulations for cities to test different scenarios before making permanent changes.</p>
+
+<p>Pilot schemes are now taking place throughout Europe. While the results of these are not yet known, Schulze Suedhoff said early indicators of these trials suggest significant improvements can be made.</p>
+
+<p>As well as city authorities, traffic police, environmental departments, bus companies and private fleets are just some of the organizations that could use the tool.</p>
+
+<p>“Logistics companies can use this to optimize their routes, avoiding areas with high traffic. If you want to implement a bus route, you also need to understand the traffic flow, particularly at peak times. Otherwise, the timetable will not make sense," Schulze Suedhoff said.</p>
+
+<p>“This product will support us in helping cities to apply for sustainability funds, and then renew and refurbish their traffic infrastructure in the city, and then make it more digital."</p></div>
+
+  
+          </div>
+        <div class="blog__author-simple">
+              
+
+
+
+<div  data-anchor="#beth-mcloughlin" data-entity-id="63911" class="author-preview author-preview--simple anchorable">
+  <div class="author-preview__image">
+                
+<div  class="avatar">
+          <img src="/sites/g/files/odxslz256/files/styles/author_avatar/public/2023-08/beth_mcloughlin_2023.png?h=11a72f85&amp;itok=-JwgsDD3" width="114" height="114" alt="Beth McLoughlin 2023" loading="lazy" />
+
+
+
+    </div>
+
+  
+    </div>
+
+  <div class="author-preview__text">
+    <div class="author-preview__name">
+                    <h3  class="heading">
+    Beth McLoughlin
+  </h3>
+
+  
+      </div>
+
+    <div class="author-preview__info">
+          
+      </div>
+  </div>
+
+  
+</div>
+
+          </div>
+        <div class="blog__share">
+              
+
+
+<div  class="blog-social-share">
+      <span class="blog-social-share__label">Share article:</span>
+  
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.here.com/learn/blog/yunex-traffic" target="_blank" aria-label="Share blog post on Facebook"  class="blog-social-share__link">
+    
+
+<span  class="hds-icon">
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false"><path d="M24 12C24 5.37188 18.6281 0 12 0C5.37188 0 0 5.37188 0 12C0 17.9906 4.3875 22.9547 10.125 23.8547V15.4688H7.07812V12H10.125V9.35625C10.125 6.34922 11.9156 4.6875 14.6578 4.6875C15.9703 4.6875 17.3438 4.92188 17.3438 4.92188V7.875H15.8297C14.3391 7.875 13.875 8.80078 13.875 9.75V12H17.2031L16.6711 15.4688H13.875V23.8547C19.6125 22.9547 24 17.9906 24 12Z"/></svg>
+</span>
+  </a>
+
+  <a href="https://twitter.com/intent/tweet?&url=https://www.here.com/learn/blog/yunex-traffic" target="_blank" aria-label="Share blog post on Twitter" class="blog-social-share__link">
+    
+
+<span  class="hds-icon">
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false"><path d="M3 24H21C22.656 24 24 22.656 24 21V3C24 1.344 22.656 0 21 0H3C1.344 0 0 1.344 0 3V21C0 22.656 1.344 24 3 24ZM17.97 9.34196C17.97 13.404 14.874 18.096 9.216 18.096C7.482 18.096 5.862 17.586 4.506 16.722C4.746 16.752 4.992 16.764 5.238 16.764C6.678 16.764 8.004 16.272 9.06 15.444C7.716 15.42 6.576 14.532 6.186 13.308C6.372 13.344 6.564 13.362 6.762 13.362C7.044 13.362 7.314 13.326 7.572 13.254C6.168 12.972 5.106 11.724 5.106 10.236V10.194C5.52 10.422 5.994 10.56 6.498 10.578C5.676 10.026 5.13 9.08396 5.13 8.01596C5.13 7.45196 5.28 6.92396 5.544 6.46796C7.062 8.32796 9.33 9.55796 11.886 9.68396C11.838 9.45596 11.808 9.22196 11.808 8.98196C11.808 7.28396 13.188 5.90396 14.886 5.90396C15.768 5.90396 16.566 6.27596 17.13 6.87596C17.832 6.73796 18.492 6.48596 19.086 6.13196C18.852 6.85196 18.366 7.45796 17.73 7.83596C18.354 7.75796 18.948 7.59596 19.5 7.34996C19.086 7.96796 18.564 8.51396 17.964 8.94596C17.97 9.07796 17.97 9.20996 17.97 9.34196Z"/></svg>
+</span>
+  </a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://www.here.com/learn/blog/yunex-traffic" target="_blank" aria-label="Share blog post on LinkedIn" class="blog-social-share__link">
+    
+
+<span  class="hds-icon">
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false"><path d="M1.48722 0C8.49399 0 15.5008 0 22.5075 0C22.5225 0.0149808 22.5375 0.0389501 22.5525 0.0389501C23.2957 0.137823 24.003 0.871883 24 1.86661C23.985 8.62894 23.982 15.3883 24 22.1506C24.003 23.0884 23.2897 24.0082 22.1329 24.0022C19.0941 23.9873 16.0552 23.9963 13.0133 23.9963C9.27318 23.9963 5.53005 23.9963 1.7899 23.9963C0.785939 23.9963 0.000749227 23.2412 0.000749227 22.2645C0.000749227 15.4212 -0.00224768 8.57801 0.00374614 1.73478C0.00674304 1.00072 0.37836 0.479386 1.03768 0.164789C1.18153 0.0958771 1.33737 0.0539309 1.48722 0ZM12.8155 10.5675C12.7975 10.5615 12.7796 10.5525 12.7586 10.5465C12.7586 10.109 12.7526 9.66861 12.7616 9.23117C12.7646 9.05739 12.7166 9.00346 12.5368 9.00346C11.5508 9.01245 10.5649 9.01245 9.57887 9.00346C9.40804 9.00346 9.34811 9.03942 9.34811 9.22218C9.3541 12.8865 9.3541 16.5508 9.34811 20.2151C9.34811 20.4039 9.41704 20.4308 9.58187 20.4308C10.5978 20.4248 11.6138 20.4218 12.6297 20.4338C12.8455 20.4368 12.9174 20.3949 12.9174 20.1582C12.9054 18.2856 12.9114 16.413 12.9114 14.5404C12.9114 14.1748 12.9414 13.8093 13.0223 13.4528C13.283 12.2992 14.0533 11.7449 15.24 11.8498C16.0372 11.9187 16.5107 12.3082 16.7325 13.0752C16.8673 13.5456 16.9003 14.031 16.9003 14.5134C16.9063 16.41 16.9063 18.3035 16.8973 20.2001C16.8973 20.3829 16.9363 20.4398 17.1281 20.4368C18.15 20.4278 19.175 20.4278 20.1969 20.4368C20.3887 20.4398 20.4457 20.3949 20.4457 20.1941C20.4397 18.2107 20.4487 16.2242 20.4457 14.2408C20.4457 13.3988 20.4067 12.5569 20.2209 11.73C19.9152 10.3607 19.2049 9.34203 17.7934 8.93155C17.206 8.76077 16.6066 8.72182 15.9982 8.73081C15.0542 8.7428 14.2361 9.07237 13.5348 9.69857C13.2471 9.94426 13.0133 10.2439 12.8155 10.5675ZM3.55808 14.7351C3.55808 16.5628 3.56108 18.3904 3.55508 20.2181C3.55508 20.3859 3.59704 20.4338 3.76487 20.4308C4.81079 20.4218 5.85671 20.4248 6.89963 20.4308C7.06146 20.4308 7.11541 20.3919 7.11541 20.2211C7.10942 16.5568 7.10942 12.8925 7.11541 9.23117C7.11541 9.06039 7.07345 9.00346 6.89064 9.00346C5.8597 9.01245 4.82877 9.01245 3.80083 9.00346C3.60303 9.00047 3.55209 9.0514 3.55209 9.24915C3.56108 11.0798 3.55808 12.9075 3.55808 14.7351ZM7.39712 5.37811C7.39712 4.25455 6.47407 3.32574 5.35323 3.32274C4.2174 3.31975 3.28536 4.24556 3.28236 5.37811C3.28236 6.49867 4.20841 7.43048 5.32925 7.43647C6.46508 7.43647 7.39412 6.51066 7.39712 5.37811Z"/></svg>
+</span>
+  </a>
+
+  <a href="mailto:?subject=How a traffic management system can reduce emissions and congestion — and boost safety&body=https://www.here.com/learn/blog/yunex-traffic" aria-label="Share blog post by email" class="blog-social-share__link">
+    
+
+<span  class="hds-icon">
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false"><path fill-rule="evenodd" clip-rule="evenodd" d="M22 5.43V18C22 18.5304 21.7893 19.0391 21.4142 19.4142C21.0391 19.7893 20.5304 20 20 20H4C3.46957 20 2.96086 19.7893 2.58579 19.4142C2.21071 19.0391 2 18.5304 2 18V5.43L9.86 13.43C10.4225 13.9918 11.185 14.3074 11.98 14.3074C12.775 14.3074 13.5375 13.9918 14.1 13.43L22 5.43ZM3.4 4H20.6C15.34 9.33333 12.7067 12.0167 12.7 12.05C12.5126 12.2363 12.2592 12.3408 11.995 12.3408C11.7308 12.3408 11.4774 12.2363 11.29 12.05L3.4 4Z"></path></svg>
+</span>
+  </a>
+</div>
+
+          </div>
+      </main>
+      <aside class="blog__aside col-md-3 offset-md-1">
+        <div class="blog__author">
+                      
+
+
+
+<div  data-anchor="#beth-mcloughlin" data-entity-id="63911" class="author-preview anchorable">
+  <div class="author-preview__image">
+                
+<div  class="avatar">
+          <img src="/sites/g/files/odxslz256/files/styles/author_avatar/public/2023-08/beth_mcloughlin_2023.png?h=11a72f85&amp;itok=-JwgsDD3" width="114" height="114" alt="Beth McLoughlin 2023" loading="lazy" />
+
+
+
+    </div>
+
+  
+    </div>
+
+  <div class="author-preview__text">
+    <div class="author-preview__name">
+                    <h3  class="heading">
+    Beth McLoughlin
+  </h3>
+
+  
+      </div>
+
+    <div class="author-preview__info">
+          
+      </div>
+  </div>
+
+      <div class="author-preview__social-media">
+                  
+
+<a  target="_blank" aria-label="Follow blog post author on Twitter" class="link" href="https://twitter.com/betty_de_brazil">
+        
+
+<span  class="hds-icon">
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false"><path d="M3 24H21C22.656 24 24 22.656 24 21V3C24 1.344 22.656 0 21 0H3C1.344 0 0 1.344 0 3V21C0 22.656 1.344 24 3 24ZM17.97 9.34196C17.97 13.404 14.874 18.096 9.216 18.096C7.482 18.096 5.862 17.586 4.506 16.722C4.746 16.752 4.992 16.764 5.238 16.764C6.678 16.764 8.004 16.272 9.06 15.444C7.716 15.42 6.576 14.532 6.186 13.308C6.372 13.344 6.564 13.362 6.762 13.362C7.044 13.362 7.314 13.326 7.572 13.254C6.168 12.972 5.106 11.724 5.106 10.236V10.194C5.52 10.422 5.994 10.56 6.498 10.578C5.676 10.026 5.13 9.08396 5.13 8.01596C5.13 7.45196 5.28 6.92396 5.544 6.46796C7.062 8.32796 9.33 9.55796 11.886 9.68396C11.838 9.45596 11.808 9.22196 11.808 8.98196C11.808 7.28396 13.188 5.90396 14.886 5.90396C15.768 5.90396 16.566 6.27596 17.13 6.87596C17.832 6.73796 18.492 6.48596 19.086 6.13196C18.852 6.85196 18.366 7.45796 17.73 7.83596C18.354 7.75796 18.948 7.59596 19.5 7.34996C19.086 7.96796 18.564 8.51396 17.964 8.94596C17.97 9.07796 17.97 9.20996 17.97 9.34196Z"/></svg>
+</span>
+    </a>
+
+  
+
+<a  target="_blank" aria-label="Follow blog post author on LinkedIn" class="link" href="https://www.linkedin.com/in/beth-mcloughlin-1587b24b/">
+        
+
+<span  class="hds-icon">
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false"><path d="M1.48722 0C8.49399 0 15.5008 0 22.5075 0C22.5225 0.0149808 22.5375 0.0389501 22.5525 0.0389501C23.2957 0.137823 24.003 0.871883 24 1.86661C23.985 8.62894 23.982 15.3883 24 22.1506C24.003 23.0884 23.2897 24.0082 22.1329 24.0022C19.0941 23.9873 16.0552 23.9963 13.0133 23.9963C9.27318 23.9963 5.53005 23.9963 1.7899 23.9963C0.785939 23.9963 0.000749227 23.2412 0.000749227 22.2645C0.000749227 15.4212 -0.00224768 8.57801 0.00374614 1.73478C0.00674304 1.00072 0.37836 0.479386 1.03768 0.164789C1.18153 0.0958771 1.33737 0.0539309 1.48722 0ZM12.8155 10.5675C12.7975 10.5615 12.7796 10.5525 12.7586 10.5465C12.7586 10.109 12.7526 9.66861 12.7616 9.23117C12.7646 9.05739 12.7166 9.00346 12.5368 9.00346C11.5508 9.01245 10.5649 9.01245 9.57887 9.00346C9.40804 9.00346 9.34811 9.03942 9.34811 9.22218C9.3541 12.8865 9.3541 16.5508 9.34811 20.2151C9.34811 20.4039 9.41704 20.4308 9.58187 20.4308C10.5978 20.4248 11.6138 20.4218 12.6297 20.4338C12.8455 20.4368 12.9174 20.3949 12.9174 20.1582C12.9054 18.2856 12.9114 16.413 12.9114 14.5404C12.9114 14.1748 12.9414 13.8093 13.0223 13.4528C13.283 12.2992 14.0533 11.7449 15.24 11.8498C16.0372 11.9187 16.5107 12.3082 16.7325 13.0752C16.8673 13.5456 16.9003 14.031 16.9003 14.5134C16.9063 16.41 16.9063 18.3035 16.8973 20.2001C16.8973 20.3829 16.9363 20.4398 17.1281 20.4368C18.15 20.4278 19.175 20.4278 20.1969 20.4368C20.3887 20.4398 20.4457 20.3949 20.4457 20.1941C20.4397 18.2107 20.4487 16.2242 20.4457 14.2408C20.4457 13.3988 20.4067 12.5569 20.2209 11.73C19.9152 10.3607 19.2049 9.34203 17.7934 8.93155C17.206 8.76077 16.6066 8.72182 15.9982 8.73081C15.0542 8.7428 14.2361 9.07237 13.5348 9.69857C13.2471 9.94426 13.0133 10.2439 12.8155 10.5675ZM3.55808 14.7351C3.55808 16.5628 3.56108 18.3904 3.55508 20.2181C3.55508 20.3859 3.59704 20.4338 3.76487 20.4308C4.81079 20.4218 5.85671 20.4248 6.89963 20.4308C7.06146 20.4308 7.11541 20.3919 7.11541 20.2211C7.10942 16.5568 7.10942 12.8925 7.11541 9.23117C7.11541 9.06039 7.07345 9.00346 6.89064 9.00346C5.8597 9.01245 4.82877 9.01245 3.80083 9.00346C3.60303 9.00047 3.55209 9.0514 3.55209 9.24915C3.56108 11.0798 3.55808 12.9075 3.55808 14.7351ZM7.39712 5.37811C7.39712 4.25455 6.47407 3.32574 5.35323 3.32274C4.2174 3.31975 3.28536 4.24556 3.28236 5.37811C3.28236 6.49867 4.20841 7.43048 5.32925 7.43647C6.46508 7.43647 7.39412 6.51066 7.39712 5.37811Z"/></svg>
+</span>
+    </a>
+
+
+  
+      </div>
+  
+</div>
+
+
+
+  
+          </div>
+        <div class="blog__touts">
+              
+          </div>
+      </aside>
+    </div>
+    <div class="blog__bottom row">
+      <div class="blog__disqus col-md-5">
+          <h4  class="heading">
+    Have your say
+  </h4>
+            <div id="disqus_thread"></div>
+<script>
+  /**
+   *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+   *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+  /*
+  var disqus_config = function () {
+  this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+  this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+  };
+  */
+  (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://here-3.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+        </div>
+          </div>
+  </div>
+      
+
+
+<div  data-anchor="#sign-up-for-our-newsletter" data-entity-id="178246" data-type="here360" class="marketo-form marketo-form--taxonomy_term blog-landing-page-term-section component-theme-light anchorable" data-paragraph-id="178246" data-marketo-id="2088">
+  <div class="marketo-form__wrapper">
+    <div class="marketo-form__content row">
+      <div class="marketo-form__description 2088_desc col-12 col-md-6">
+                  <div class="marketo-form__title">
+              <h2  class="heading">
+    Sign up for our newsletter
+  </h2>
+          </div>
+
+                      <div class="marketo-form__body">
+              
+<div  class="text-long body-large text-long-large">
+    <p><span>Why sign up:</span></p>
+
+<ul><li>Latest offers and discounts</li>
+	<li>Tailored content delivered weekly</li>
+	<li>Exclusive events</li>
+	<li>One click to unsubscribe</li>
+</ul>
+</div>
+
+            </div>
+          
+                        </div>
+      <div class="marketo-form__form col-12 col-md-6">
+        <form id="mktoForm_2088" class="mtoForm-inline ready"></form>
+      </div>
+      <div class="marketo-form__form-success"></div>
+    </div>
+  </div>
+</div>
+
+  </div>
+
+  </div>
+
+  </div>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer-content">
+      
+<div  class="region region--footer">
+        
+
+<div  id="block-here-footer-2" data-block-plugin-id="here_footer_block" class="block block--here-footer-block">
+  
+    
+      
+
+
+
+<div  data-anchor="#here" data-entity-id="1" class="footer footer--has-columns component-theme-dark anchorable">
+  
+  
+
+  <div class="footer__container container">
+    <div class="footer__top-wrapper row">
+      <div class="footer__heading col-12 col-md-2">
+                          
+    <h2  class="heading">
+    HERE
+  </h2>
+
+  
+                    
+<div  class="language-switcher">
+  <div class="language-switcher__current-language">
+    
+<a href="/learn/blog/yunex-traffic"  onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:button:selectlang:en&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:button:selectlang:en&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:button:selectlang:en&quot;
+});" class="language-switcher-link language-en">
+  Global - English
+</a>
+
+
+    
+
+<span  class="hds-icon">
+  <svg width="8" height="8" viewBox="0 0 8 8" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false"><path d="M4 7L0 3L1 2L4 5L7 2L8 3L4 7Z"></path></svg>
+</span>
+  </div>
+
+  <div class="language-switcher__dropdown">
+          
+<a href="/jp"  onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:button:selectlang:ja&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:button:selectlang:ja&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:button:selectlang:ja&quot;
+});" class="language-switcher-link language-ja">
+  日本-日本語
+</a>
+
+      </div>
+</div>
+
+              </div>
+
+        
+<div  class="divider col-12">
+  <div class="divider__line"></div>
+</div>
+        <div class="footer__columns col-12 offset-md-2 col-md-8">
+                      
+<div  data-entity-id="155731" class="footer-column">
+  <div class="footer-column__label">
+                Overview
+
+  
+  
+    
+
+<span  class="hds-icon">
+  <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false"><path d="M8 9.17L12.59 4.59L14 6L8 12L2 6L3.41 4.59L8 9.17Z"></path></svg>
+</span>
+
+    <a class="footer-column__toggle" href="#" aria-label="Toggle accordion"></a>
+  </div>
+  <div class="footer-column__content">
+    <div class="footer-column__content-container">
+                  <a href="/platform" target="_self" onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:BottomLinks:Platform&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:BottomLinks:Platform&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:BottomLinks:Platform&quot;
+});">Platform</a>
+  <a href="/solutions" target="_self" onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:BottomLinks:Solutions&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:BottomLinks:Solutions&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:BottomLinks:Solutions&quot;
+});">Solutions</a>
+  <a href="/products" target="_self" onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:BottomLinks:Applications&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:BottomLinks:Applications&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:BottomLinks:Applications&quot;
+});">Applications</a>
+  <a href="https://developer.here.com" target="_self" onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:BottomLinks:Developers&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:BottomLinks:Developers&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:BottomLinks:Developers&quot;
+});">Developers</a>
+  <a href="/get-started/partner-with-here" target="_self" onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:BottomLinks:Partners&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:BottomLinks:Partners&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:BottomLinks:Partners&quot;
+});">Partners</a>
+
+  
+      </div>
+  </div>
+  
+<div  class="divider">
+  <div class="divider__line"></div>
+</div>
+</div>
+
+  
+<div  data-entity-id="155736" class="footer-column">
+  <div class="footer-column__label">
+                Company
+
+  
+  
+    
+
+<span  class="hds-icon">
+  <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false"><path d="M8 9.17L12.59 4.59L14 6L8 12L2 6L3.41 4.59L8 9.17Z"></path></svg>
+</span>
+
+    <a class="footer-column__toggle" href="#" aria-label="Toggle accordion"></a>
+  </div>
+  <div class="footer-column__content">
+    <div class="footer-column__content-container">
+                  <a href="/company/about-us" target="_self" onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:BottomLinks:About Us&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:BottomLinks:About Us&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:BottomLinks:About Us&quot;
+});">About Us</a>
+  <a href="/about/careers" target="_self" onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:BottomLinks:Careers&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:BottomLinks:Careers&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:BottomLinks:Careers&quot;
+});">Careers</a>
+  <a href="/about/here-offices" target="_self" onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:BottomLinks:HERE Offices&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:BottomLinks:HERE Offices&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:BottomLinks:HERE Offices&quot;
+});">HERE Offices</a>
+  <a href="/suppliers" target="_self" onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:BottomLinks:Suppliers&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:BottomLinks:Suppliers&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:BottomLinks:Suppliers&quot;
+});">Suppliers</a>
+  <a href="/contact" target="_self" onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:BottomLinks:Contact Us&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:BottomLinks:Contact Us&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:BottomLinks:Contact Us&quot;
+});">Contact Us</a>
+
+  
+      </div>
+  </div>
+  
+<div  class="divider">
+  <div class="divider__line"></div>
+</div>
+</div>
+
+  
+<div  data-entity-id="155741" class="footer-column">
+  <div class="footer-column__label">
+                Capabilities
+
+  
+  
+    
+
+<span  class="hds-icon">
+  <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false"><path d="M8 9.17L12.59 4.59L14 6L8 12L2 6L3.41 4.59L8 9.17Z"></path></svg>
+</span>
+
+    <a class="footer-column__toggle" href="#" aria-label="Toggle accordion"></a>
+  </div>
+  <div class="footer-column__content">
+    <div class="footer-column__content-container">
+                  <a href="/solutions/data-visualization" target="_self" onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:BottomLinks:Visualize data&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:BottomLinks:Visualize data&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:BottomLinks:Visualize data&quot;
+});">Visualize data</a>
+  <a href="/solutions/location-analytics" target="_self" onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:BottomLinks:Generate insights&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:BottomLinks:Generate insights&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:BottomLinks:Generate insights&quot;
+});">Generate insights</a>
+  <a href="/solutions/location-based-applications" target="_self" onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:BottomLinks:Build applications&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:BottomLinks:Build applications&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:BottomLinks:Build applications&quot;
+});">Build applications</a>
+  <a href="/solutions/services-development" target="_self" onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:BottomLinks:Develop services&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:BottomLinks:Develop services&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:BottomLinks:Develop services&quot;
+});">Develop services</a>
+  <a href="/solutions/mapmaking" target="_self" onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:BottomLinks:Make maps&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:BottomLinks:Make maps&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:BottomLinks:Make maps&quot;
+});">Make maps</a>
+
+  
+      </div>
+  </div>
+  
+<div  class="divider">
+  <div class="divider__line"></div>
+</div>
+</div>
+
+  
+<div  data-entity-id="155746" class="footer-column">
+  <div class="footer-column__label">
+                Resources
+
+  
+  
+    
+
+<span  class="hds-icon">
+  <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false"><path d="M8 9.17L12.59 4.59L14 6L8 12L2 6L3.41 4.59L8 9.17Z"></path></svg>
+</span>
+
+    <a class="footer-column__toggle" href="#" aria-label="Toggle accordion"></a>
+  </div>
+  <div class="footer-column__content">
+    <div class="footer-column__content-container">
+                  <a href="/learn/blog?type=here360" target="_self" onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:BottomLinks:HERE360 News&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:BottomLinks:HERE360 News&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:BottomLinks:HERE360 News&quot;
+});">HERE360 News</a>
+  <a href="/learn/blog?type=developer" target="_self" onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:BottomLinks:Developer Blog&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:BottomLinks:Developer Blog&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:BottomLinks:Developer Blog&quot;
+});">Developer Blog</a>
+  <a href="/drives" target="_self" onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:BottomLinks:Drive Schedule&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:BottomLinks:Drive Schedule&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:BottomLinks:Drive Schedule&quot;
+});">Drive Schedule</a>
+  <a href="https://brand.here.com/introduction/get-started/" target="_blank" onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:BottomLinks:HERE Brand Portal&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:BottomLinks:HERE Brand Portal&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:BottomLinks:HERE Brand Portal&quot;
+});">HERE Brand Portal</a>
+  <a href="/here-code-conduct" target="_self" onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:BottomLinks:Code of Conduct&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:BottomLinks:Code of Conduct&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:BottomLinks:Code of Conduct&quot;
+});">Code of Conduct</a>
+
+  
+      </div>
+  </div>
+  
+<div  class="divider">
+  <div class="divider__line"></div>
+</div>
+</div>
+
+  
+<div  data-entity-id="218846" class="footer-column">
+  <div class="footer-column__label">
+                Developer Tools
+
+  
+  
+    
+
+<span  class="hds-icon">
+  <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false"><path d="M8 9.17L12.59 4.59L14 6L8 12L2 6L3.41 4.59L8 9.17Z"></path></svg>
+</span>
+
+    <a class="footer-column__toggle" href="#" aria-label="Toggle accordion"></a>
+  </div>
+  <div class="footer-column__content">
+    <div class="footer-column__content-container">
+                  <a href="/platform/marketplace" target="_self" onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:BottomLinks:HERE Marketplace&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:BottomLinks:HERE Marketplace&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:BottomLinks:HERE Marketplace&quot;
+});">HERE Marketplace</a>
+  <a href="/platform/here-sdk" target="_self" onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:BottomLinks:HERE SDK&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:BottomLinks:HERE SDK&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:BottomLinks:HERE SDK&quot;
+});">HERE SDK</a>
+  <a href="/platform/live-sense-sdk" target="_self" onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:BottomLinks:HERE Live Sense SDK&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:BottomLinks:HERE Live Sense SDK&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:BottomLinks:HERE Live Sense SDK&quot;
+});">HERE Live Sense SDK</a>
+  <a href="/platform/anonymizer" target="_self" onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:BottomLinks:HERE Anonymizer&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:BottomLinks:HERE Anonymizer&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:BottomLinks:HERE Anonymizer&quot;
+});">HERE Anonymizer</a>
+
+  
+      </div>
+  </div>
+  
+<div  class="divider">
+  <div class="divider__line"></div>
+</div>
+</div>
+
+  
+<div  class="footer-column footer-column--legal">
+  <div class="footer-column__label">
+        Legal
+  
+    
+
+<span  class="hds-icon">
+  <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false"><path d="M8 9.17L12.59 4.59L14 6L8 12L2 6L3.41 4.59L8 9.17Z"></path></svg>
+</span>
+
+    <a class="footer-column__toggle" href="#" aria-label="Toggle accordion"></a>
+  </div>
+  <div class="footer-column__content">
+    <div class="footer-column__content-container">
+          <a href="#gdpr" onclick="utag.gdpr.showConsentPreferences()">Consent Preferences</a><a href="/here-statement-gdpr">GDPR</a><a href="https://legal.here.com/en-gb/terms/here-end-user-terms">Terms</a><a href="https://legal.here.com/en-gb/security">Security</a><a href="https://legal.here.com/en-gb/privacy">Privacy</a><a href="https://www.here.com/here-privacy-charter">Privacy Charter</a><a href="/here-modern-slavery-statement">Modern Slavery Statement</a><a href="https://legal.here.com/en-gb/privacy/do-not-sell">Do Not Sell My Personal Information</a>
+      </div>
+  </div>
+  
+<div  class="divider">
+  <div class="divider__line"></div>
+</div>
+</div>
+
+  
+<div  class="footer-column footer-column--social">
+  <div class="footer-column__label">
+        Social media
+  
+    
+
+<span  class="hds-icon">
+  <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false"><path d="M8 9.17L12.59 4.59L14 6L8 12L2 6L3.41 4.59L8 9.17Z"></path></svg>
+</span>
+
+    <a class="footer-column__toggle" href="#" aria-label="Toggle accordion"></a>
+  </div>
+  <div class="footer-column__content">
+    <div class="footer-column__content-container">
+          
+
+
+<a  data-entity-id="155756" href="https://www.youtube.com/user/heremaps" target="_blank" onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:BottomLinks:Youtube&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:BottomLinks:Youtube&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:BottomLinks:Youtube&quot;
+});" class="social-media-link">
+  
+
+<span  class="hds-icon">
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false"><path fill-rule="evenodd" clip-rule="evenodd" d="M21.3682 4.50455C22.4045 4.79091 23.2227 5.60909 23.4955 6.64545C24 8.52727 24 12.4545 24 12.4545C24 12.4545 24 16.3818 23.5091 18.2636C23.2227 19.3136 22.4182 20.1318 21.3818 20.4045C19.5 20.9091 12 20.9091 12 20.9091C12 20.9091 4.5 20.9091 2.63182 20.4045C1.59545 20.1182 0.777273 19.3 0.504545 18.2636C0 16.3818 0 12.4545 0 12.4545C0 12.4545 0 8.52727 0.490909 6.64545C0.777273 5.59545 1.58182 4.77727 2.61818 4.50455C4.5 4 12 4 12 4C12 4 19.5 4 21.3682 4.50455ZM15.8182 12.4546L9.54543 16.0273V8.88184L15.8182 12.4546Z"/></svg>
+</span>
+
+  <span class="label">
+    Youtube
+  </span>
+</a>
+
+
+
+<a  data-entity-id="155761" href="https://www.instagram.com/here/" target="_blank" onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:BottomLinks:Instagram&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:BottomLinks:Instagram&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:BottomLinks:Instagram&quot;
+});" class="social-media-link">
+  
+
+<span  class="hds-icon">
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false"><path d="M11.9952 2.1619C15.2 2.1619 15.5762 2.17619 16.8429 2.23333C18.0143 2.28571 18.6476 2.48095 19.0714 2.64762C19.6333 2.86667 20.0333 3.12381 20.4524 3.54286C20.8714 3.9619 21.1333 4.3619 21.3476 4.92381C21.5095 5.34762 21.7095 5.98095 21.7619 7.15238C21.819 8.41905 21.8333 8.79524 21.8333 12C21.8333 15.2048 21.819 15.581 21.7619 16.8476C21.7095 18.019 21.5143 18.6524 21.3476 19.0762C21.1286 19.6381 20.8714 20.0381 20.4524 20.4571C20.0333 20.8762 19.6333 21.1381 19.0714 21.3524C18.6476 21.5143 18.0143 21.7143 16.8429 21.7667C15.5762 21.8238 15.2 21.8381 11.9952 21.8381C8.79048 21.8381 8.41429 21.8238 7.14762 21.7667C5.97619 21.7143 5.34286 21.519 4.91905 21.3524C4.35714 21.1333 3.95714 20.8762 3.5381 20.4571C3.11905 20.0381 2.85714 19.6381 2.64286 19.0762C2.48095 18.6524 2.28095 18.019 2.22857 16.8476C2.17143 15.581 2.15714 15.2048 2.15714 12C2.15714 8.79524 2.17143 8.41905 2.22857 7.15238C2.28095 5.98095 2.47619 5.34762 2.64286 4.92381C2.8619 4.3619 3.11905 3.9619 3.5381 3.54286C3.95714 3.12381 4.35714 2.8619 4.91905 2.64762C5.34286 2.48571 5.97619 2.28571 7.14762 2.23333C8.41429 2.17143 8.79524 2.1619 11.9952 2.1619ZM11.9952 0C8.7381 0 8.32857 0.0142857 7.04762 0.0714286C5.77143 0.128571 4.9 0.333333 4.1381 0.628571C3.34762 0.933333 2.68095 1.34762 2.01429 2.01429C1.34762 2.68095 0.938095 3.35238 0.628571 4.13809C0.333333 4.9 0.128571 5.77143 0.0714286 7.05238C0.0142857 8.32857 0 8.73809 0 11.9952C0 15.2524 0.0142857 15.6619 0.0714286 16.9429C0.128571 18.219 0.333333 19.0905 0.628571 19.8571C0.933333 20.6476 1.34762 21.3143 2.01429 21.981C2.68095 22.6476 3.35238 23.0571 4.1381 23.3667C4.9 23.6619 5.77143 23.8667 7.05238 23.9238C8.33333 23.981 8.7381 23.9952 12 23.9952C15.2619 23.9952 15.6667 23.981 16.9476 23.9238C18.2238 23.8667 19.0952 23.6619 19.8619 23.3667C20.6524 23.0619 21.319 22.6476 21.9857 21.981C22.6524 21.3143 23.0619 20.6429 23.3714 19.8571C23.6667 19.0952 23.8714 18.2238 23.9286 16.9429C23.9857 15.6619 24 15.2571 24 11.9952C24 8.73333 23.9857 8.32857 23.9286 7.04762C23.8714 5.77143 23.6667 4.9 23.3714 4.13333C23.0667 3.34286 22.6524 2.67619 21.9857 2.00952C21.319 1.34286 20.6476 0.933333 19.8619 0.62381C19.1 0.328571 18.2286 0.12381 16.9476 0.0666667C15.6619 0.0142857 15.2524 0 11.9952 0Z"/><path d="M11.9952 5.8381C8.59525 5.8381 5.83334 8.59525 5.83334 12C5.83334 15.4048 8.59049 18.1619 11.9952 18.1619C15.4 18.1619 18.1572 15.4048 18.1572 12C18.1572 8.59525 15.4 5.8381 11.9952 5.8381ZM11.9952 15.9952C9.78572 15.9952 7.99525 14.2048 7.99525 11.9952C7.99525 9.78572 9.78572 7.99525 11.9952 7.99525C14.2048 7.99525 15.9952 9.78572 15.9952 11.9952C15.9952 14.2048 14.2048 15.9952 11.9952 15.9952Z"/><path d="M18.4 7.02857C19.1942 7.02857 19.8381 6.38471 19.8381 5.59047C19.8381 4.79623 19.1942 4.15237 18.4 4.15237C17.6058 4.15237 16.9619 4.79623 16.9619 5.59047C16.9619 6.38471 17.6058 7.02857 18.4 7.02857Z"/></svg>
+</span>
+
+  <span class="label">
+    Instagram
+  </span>
+</a>
+
+
+
+<a  data-entity-id="155766" href="https://twitter.com/HERE" target="_blank" onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:BottomLinks:Twitter&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:BottomLinks:Twitter&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:BottomLinks:Twitter&quot;
+});" class="social-media-link">
+  
+
+<span  class="hds-icon">
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false"><path d="M3 24H21C22.656 24 24 22.656 24 21V3C24 1.344 22.656 0 21 0H3C1.344 0 0 1.344 0 3V21C0 22.656 1.344 24 3 24ZM17.97 9.34196C17.97 13.404 14.874 18.096 9.216 18.096C7.482 18.096 5.862 17.586 4.506 16.722C4.746 16.752 4.992 16.764 5.238 16.764C6.678 16.764 8.004 16.272 9.06 15.444C7.716 15.42 6.576 14.532 6.186 13.308C6.372 13.344 6.564 13.362 6.762 13.362C7.044 13.362 7.314 13.326 7.572 13.254C6.168 12.972 5.106 11.724 5.106 10.236V10.194C5.52 10.422 5.994 10.56 6.498 10.578C5.676 10.026 5.13 9.08396 5.13 8.01596C5.13 7.45196 5.28 6.92396 5.544 6.46796C7.062 8.32796 9.33 9.55796 11.886 9.68396C11.838 9.45596 11.808 9.22196 11.808 8.98196C11.808 7.28396 13.188 5.90396 14.886 5.90396C15.768 5.90396 16.566 6.27596 17.13 6.87596C17.832 6.73796 18.492 6.48596 19.086 6.13196C18.852 6.85196 18.366 7.45796 17.73 7.83596C18.354 7.75796 18.948 7.59596 19.5 7.34996C19.086 7.96796 18.564 8.51396 17.964 8.94596C17.97 9.07796 17.97 9.20996 17.97 9.34196Z"/></svg>
+</span>
+
+  <span class="label">
+    Twitter
+  </span>
+</a>
+
+
+
+<a  data-entity-id="155771" href="https://www.linkedin.com/company/here/mycompany/verification/" target="_blank" onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:BottomLinks:Linkedin&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:BottomLinks:Linkedin&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:BottomLinks:Linkedin&quot;
+});" class="social-media-link">
+  
+
+<span  class="hds-icon">
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false"><path d="M1.48722 0C8.49399 0 15.5008 0 22.5075 0C22.5225 0.0149808 22.5375 0.0389501 22.5525 0.0389501C23.2957 0.137823 24.003 0.871883 24 1.86661C23.985 8.62894 23.982 15.3883 24 22.1506C24.003 23.0884 23.2897 24.0082 22.1329 24.0022C19.0941 23.9873 16.0552 23.9963 13.0133 23.9963C9.27318 23.9963 5.53005 23.9963 1.7899 23.9963C0.785939 23.9963 0.000749227 23.2412 0.000749227 22.2645C0.000749227 15.4212 -0.00224768 8.57801 0.00374614 1.73478C0.00674304 1.00072 0.37836 0.479386 1.03768 0.164789C1.18153 0.0958771 1.33737 0.0539309 1.48722 0ZM12.8155 10.5675C12.7975 10.5615 12.7796 10.5525 12.7586 10.5465C12.7586 10.109 12.7526 9.66861 12.7616 9.23117C12.7646 9.05739 12.7166 9.00346 12.5368 9.00346C11.5508 9.01245 10.5649 9.01245 9.57887 9.00346C9.40804 9.00346 9.34811 9.03942 9.34811 9.22218C9.3541 12.8865 9.3541 16.5508 9.34811 20.2151C9.34811 20.4039 9.41704 20.4308 9.58187 20.4308C10.5978 20.4248 11.6138 20.4218 12.6297 20.4338C12.8455 20.4368 12.9174 20.3949 12.9174 20.1582C12.9054 18.2856 12.9114 16.413 12.9114 14.5404C12.9114 14.1748 12.9414 13.8093 13.0223 13.4528C13.283 12.2992 14.0533 11.7449 15.24 11.8498C16.0372 11.9187 16.5107 12.3082 16.7325 13.0752C16.8673 13.5456 16.9003 14.031 16.9003 14.5134C16.9063 16.41 16.9063 18.3035 16.8973 20.2001C16.8973 20.3829 16.9363 20.4398 17.1281 20.4368C18.15 20.4278 19.175 20.4278 20.1969 20.4368C20.3887 20.4398 20.4457 20.3949 20.4457 20.1941C20.4397 18.2107 20.4487 16.2242 20.4457 14.2408C20.4457 13.3988 20.4067 12.5569 20.2209 11.73C19.9152 10.3607 19.2049 9.34203 17.7934 8.93155C17.206 8.76077 16.6066 8.72182 15.9982 8.73081C15.0542 8.7428 14.2361 9.07237 13.5348 9.69857C13.2471 9.94426 13.0133 10.2439 12.8155 10.5675ZM3.55808 14.7351C3.55808 16.5628 3.56108 18.3904 3.55508 20.2181C3.55508 20.3859 3.59704 20.4338 3.76487 20.4308C4.81079 20.4218 5.85671 20.4248 6.89963 20.4308C7.06146 20.4308 7.11541 20.3919 7.11541 20.2211C7.10942 16.5568 7.10942 12.8925 7.11541 9.23117C7.11541 9.06039 7.07345 9.00346 6.89064 9.00346C5.8597 9.01245 4.82877 9.01245 3.80083 9.00346C3.60303 9.00047 3.55209 9.0514 3.55209 9.24915C3.56108 11.0798 3.55808 12.9075 3.55808 14.7351ZM7.39712 5.37811C7.39712 4.25455 6.47407 3.32574 5.35323 3.32274C4.2174 3.31975 3.28536 4.24556 3.28236 5.37811C3.28236 6.49867 4.20841 7.43048 5.32925 7.43647C6.46508 7.43647 7.39412 6.51066 7.39712 5.37811Z"/></svg>
+</span>
+
+  <span class="label">
+    Linkedin
+  </span>
+</a>
+
+
+
+<a  data-entity-id="155776" href="https://www.facebook.com/here" target="_blank" onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:BottomLinks:Facebook&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:BottomLinks:Facebook&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:BottomLinks:Facebook&quot;
+});" class="social-media-link">
+  
+
+<span  class="hds-icon">
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false"><path d="M24 12C24 5.37188 18.6281 0 12 0C5.37188 0 0 5.37188 0 12C0 17.9906 4.3875 22.9547 10.125 23.8547V15.4688H7.07812V12H10.125V9.35625C10.125 6.34922 11.9156 4.6875 14.6578 4.6875C15.9703 4.6875 17.3438 4.92188 17.3438 4.92188V7.875H15.8297C14.3391 7.875 13.875 8.80078 13.875 9.75V12H17.2031L16.6711 15.4688H13.875V23.8547C19.6125 22.9547 24 17.9906 24 12Z"/></svg>
+</span>
+
+  <span class="label">
+    Facebook
+  </span>
+</a>
+
+      </div>
+  </div>
+  
+<div  class="divider">
+  <div class="divider__line"></div>
+</div>
+</div>
+
+
+  
+          </div>
+    </div>
+
+    
+<div  class="divider">
+  <div class="divider__line"></div>
+</div>
+
+    <div class="footer__bottom-wrapper">
+      <div class="footer__legal-links">
+                    <a href="#gdpr" onclick="utag.gdpr.showConsentPreferences()" class="no-link">Consent Preferences</a>
+  <a href="/here-statement-gdpr">GDPR</a>
+  <a href="https://legal.here.com/en-gb/terms/here-end-user-terms">Terms</a>
+  <a href="https://legal.here.com/en-gb/security">Security</a>
+  <a href="https://legal.here.com/en-gb/privacy">Privacy</a>
+  <a href="https://www.here.com/here-privacy-charter">Privacy Charter</a>
+  <a href="/here-modern-slavery-statement">Modern Slavery Statement</a>
+  <a href="https://legal.here.com/en-gb/privacy/do-not-sell">Do Not Sell My Personal Information</a>
+
+  
+        </div>
+              
+<div  class="language-switcher">
+  <div class="language-switcher__current-language">
+    
+<a href="/learn/blog/yunex-traffic"  onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:button:selectlang:en&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:button:selectlang:en&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:button:selectlang:en&quot;
+});" class="language-switcher-link language-en">
+  Global - English
+</a>
+
+
+    
+
+<span  class="hds-icon">
+  <svg width="8" height="8" viewBox="0 0 8 8" fill="currentColor" xmlns="http://www.w3.org/2000/svg" focusable="false"><path d="M4 7L0 3L1 2L4 5L7 2L8 3L4 7Z"></path></svg>
+</span>
+  </div>
+
+  <div class="language-switcher__dropdown">
+          
+<a href="/jp"  onclick="utag.link({
+    &quot;link_id&quot;: this,
+    &quot;link_text&quot;: &quot;herecomcorporate:button:selectlang:ja&quot;,
+    &quot;linkEvent&quot;: &quot;herecomcorporate:button:selectlang:ja&quot;,
+    &quot;actionTrack&quot;: &quot;herecomcorporate:button:selectlang:ja&quot;
+});" class="language-switcher-link language-ja">
+  日本-日本語
+</a>
+
+      </div>
+</div>
+
+            <div class="footer__copyright">
+        © 2024 HERE
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div>
+
+  </div>
+
+    </div>
+  </footer>
+</div>
+
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/64371","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"here_marketo_munchkin":{"track":true,"key":"142-UEL-347","initParams":[],"library":"\/\/munchkin.marketo.net\/munchkin.js"},"field_group":{"html_element":{"mode":"default","context":"view","settings":{"classes":"","show_empty_fields":false,"id":"","element":"\u003Cnone\u003E","show_label":false,"label_element":"h3","label_element_classes":"","attributes":"","effect":"none","speed":"fast"}}},"marketo_form_field":{"marketoForms":{"2088":{"178246":{"formId":"2088","successHTML":"\n\u003Cdiv  data-anchor=\u0022#sign-up-for-our-newsletter-thank-you\u0022 data-entity-id=\u0022178241\u0022 class=\u0022marketo-success anchorable\u0022 \u003E\n\n      \u003Cdiv class=\u0022row\u0022\u003E\n      \u003Cdiv class=\u0022marketo-success__message text-align-center col-12\u0022\u003E\n        \u003Cspan class=\u0022marketo-success__icon\u0022\u003E\u003C\/span\u003E\n                    \u003Ch2  class=\u0022heading\u0022\u003E\n    Thank you\n  \u003C\/h2\u003E\n        \n            \n  \n            \n        \u003C\/div\u003E\n    \u003C\/div\u003E\n  \n  \u003Cdiv class=\u0022marketo-success__bottom\u0022\u003E\n    \u003C\/div\u003E\n\u003C\/div\u003E\n","values":[],"url_params":{"form_id":"2088","form_category":"contact-us"}}}},"munchkinId":"142-UEL-347","instanceHost":"\/\/website.webforms-here.com","url_params_list":["form_id","form_category","detailed_source"]},"ajaxTrustedUrl":{"\/site-search":true},"utagProfile":"herecomcorporate","theme":"component-theme-light","lazyload":{"breakpoints":[1440,1280,1024,768,767]},"ajax":[],"user":{"uid":0,"permissionsHash":"969e16d353e2ef0901e7ba3299a0254dbfacbfaaeb5949eff0bdaafa252ba7f8"}}</script>
+<script src="/sites/g/files/odxslz256/files/js/js_AMeNmuoWDEauWaNWTqvI0V21FyzFtg7hwqATpRU-7bo.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=here_com_theme&amp;include=eJyNVO2S2yAMfKG7eOb6JH0CRgbZJsaIE8JJ7ukrf6RNinPtD9sMu5bEaoUlxub8WZBvbwMymgl4RKFmKtEOo49v-ZYFp6aFjBtjWRkZcMKmD9RCqLbBTT6a4OOYK8wKvEDOP5cqTIKc_YxK0rwROZvOX-sUZ7gaH7NAtFjHoiKaBI1DQSsVPGBIGrmOGv0E4ilWSJ77azlQQKAN9W72UwrYAm9IgK-bCQSu-b3aAC1-IM5Ntkwh3MmxL9Bjc1-YfPFiFXtLwNAzpCE3jkuCcPqzcyoxlVZFG9DV9ZD1EMyEzm_qV4yOSJCr7d0NJherMteC3fGOeDJtIDv-5aLt-77gH_v5EJzpl86uSpv54ynKRnI-fxY95fqp21REZTOJcfZ4qWCtozf7kfMAXPenZS3Ccpnag-AzCNRKbDNywhB8yr7-jTGAoDOWotpWjNehOazsRbmrA9TRzlsQqvNHmH2_K_bDJEolAB9nmc0D-c7MCKwmqgt_Ym-sjaNm0UIWES_EYxfosghPlhZvi9pSbuEg3jLgLdixZyrRaQN0Dr9PemjIJ0YXbjrR_8PR8WmxvpGeJYH4L0pG7aMDvY6O76rneNr5dQByaffgdrlW9xl12KoS9nsRalCdnYjlQcu9jCLQN8try3LO75Zo9PiA9i7x2vlkIpnH22WFd7MJa2gflzgOc_QpoTQP69Pg-yHoI-f8krO6QM_YQQnyC8RIfkw"></script>
+<script src="/themes/custom/here_base_theme/dist/vendor/svgxuse/svgxuse.min.js?sawh49" defer></script>
+<script src="/sites/g/files/odxslz256/files/js/js_hVk-oUL9CRxZBWF3jkip9zEpmo6wUEukBBDGZpbcVRY.js?scope=footer&amp;delta=2&amp;language=en&amp;theme=here_com_theme&amp;include=eJyNVO2S2yAMfKG7eOb6JH0CRgbZJsaIE8JJ7ukrf6RNinPtD9sMu5bEaoUlxub8WZBvbwMymgl4RKFmKtEOo49v-ZYFp6aFjBtjWRkZcMKmD9RCqLbBTT6a4OOYK8wKvEDOP5cqTIKc_YxK0rwROZvOX-sUZ7gaH7NAtFjHoiKaBI1DQSsVPGBIGrmOGv0E4ilWSJ77azlQQKAN9W72UwrYAm9IgK-bCQSu-b3aAC1-IM5Ntkwh3MmxL9Bjc1-YfPFiFXtLwNAzpCE3jkuCcPqzcyoxlVZFG9DV9ZD1EMyEzm_qV4yOSJCr7d0NJherMteC3fGOeDJtIDv-5aLt-77gH_v5EJzpl86uSpv54ynKRnI-fxY95fqp21REZTOJcfZ4qWCtozf7kfMAXPenZS3Ccpnag-AzCNRKbDNywhB8yr7-jTGAoDOWotpWjNehOazsRbmrA9TRzlsQqvNHmH2_K_bDJEolAB9nmc0D-c7MCKwmqgt_Ym-sjaNm0UIWES_EYxfosghPlhZvi9pSbuEg3jLgLdixZyrRaQN0Dr9PemjIJ0YXbjrR_8PR8WmxvpGeJYH4L0pG7aMDvY6O76rneNr5dQByaffgdrlW9xl12KoS9nsRalCdnYjlQcu9jCLQN8try3LO75Zo9PiA9i7x2vlkIpnH22WFd7MJa2gflzgOc_QpoTQP69Pg-yHoI-f8krO6QM_YQQnyC8RIfkw"></script>
+<script src="/profiles/custom/here_base/modules/custom/here_lazy_load/js/here_lazy_load.js?sawh49" defer></script>
+<script src="/sites/g/files/odxslz256/files/js/js_NbND_T2LrDlZ0vcNwRjyIebCIoxdKbITdTmkvpPHV-E.js?scope=footer&amp;delta=4&amp;language=en&amp;theme=here_com_theme&amp;include=eJyNVO2S2yAMfKG7eOb6JH0CRgbZJsaIE8JJ7ukrf6RNinPtD9sMu5bEaoUlxub8WZBvbwMymgl4RKFmKtEOo49v-ZYFp6aFjBtjWRkZcMKmD9RCqLbBTT6a4OOYK8wKvEDOP5cqTIKc_YxK0rwROZvOX-sUZ7gaH7NAtFjHoiKaBI1DQSsVPGBIGrmOGv0E4ilWSJ77azlQQKAN9W72UwrYAm9IgK-bCQSu-b3aAC1-IM5Ntkwh3MmxL9Bjc1-YfPFiFXtLwNAzpCE3jkuCcPqzcyoxlVZFG9DV9ZD1EMyEzm_qV4yOSJCr7d0NJherMteC3fGOeDJtIDv-5aLt-77gH_v5EJzpl86uSpv54ynKRnI-fxY95fqp21REZTOJcfZ4qWCtozf7kfMAXPenZS3Ccpnag-AzCNRKbDNywhB8yr7-jTGAoDOWotpWjNehOazsRbmrA9TRzlsQqvNHmH2_K_bDJEolAB9nmc0D-c7MCKwmqgt_Ym-sjaNm0UIWES_EYxfosghPlhZvi9pSbuEg3jLgLdixZyrRaQN0Dr9PemjIJ0YXbjrR_8PR8WmxvpGeJYH4L0pG7aMDvY6O76rneNr5dQByaffgdrlW9xl12KoS9nsRalCdnYjlQcu9jCLQN8try3LO75Zo9PiA9i7x2vlkIpnH22WFd7MJa2gflzgOc_QpoTQP69Pg-yHoI-f8krO6QM_YQQnyC8RIfkw"></script>
+<script src="//website.webforms-here.com/js/forms2/js/forms2.min.js" defer="true"></script>
+<script src="/sites/g/files/odxslz256/files/js/js_lrKSPQ7Nt64Bu9Y_H3FeFD4BQX70JzsdN88RcX9kHbk.js?scope=footer&amp;delta=6&amp;language=en&amp;theme=here_com_theme&amp;include=eJyNVO2S2yAMfKG7eOb6JH0CRgbZJsaIE8JJ7ukrf6RNinPtD9sMu5bEaoUlxub8WZBvbwMymgl4RKFmKtEOo49v-ZYFp6aFjBtjWRkZcMKmD9RCqLbBTT6a4OOYK8wKvEDOP5cqTIKc_YxK0rwROZvOX-sUZ7gaH7NAtFjHoiKaBI1DQSsVPGBIGrmOGv0E4ilWSJ77azlQQKAN9W72UwrYAm9IgK-bCQSu-b3aAC1-IM5Ntkwh3MmxL9Bjc1-YfPFiFXtLwNAzpCE3jkuCcPqzcyoxlVZFG9DV9ZD1EMyEzm_qV4yOSJCr7d0NJherMteC3fGOeDJtIDv-5aLt-77gH_v5EJzpl86uSpv54ynKRnI-fxY95fqp21REZTOJcfZ4qWCtozf7kfMAXPenZS3Ccpnag-AzCNRKbDNywhB8yr7-jTGAoDOWotpWjNehOazsRbmrA9TRzlsQqvNHmH2_K_bDJEolAB9nmc0D-c7MCKwmqgt_Ym-sjaNm0UIWES_EYxfosghPlhZvi9pSbuEg3jLgLdixZyrRaQN0Dr9PemjIJ0YXbjrR_8PR8WmxvpGeJYH4L0pG7aMDvY6O76rneNr5dQByaffgdrlW9xl12KoS9nsRalCdnYjlQcu9jCLQN8try3LO75Zo9PiA9i7x2vlkIpnH22WFd7MJa2gflzgOc_QpoTQP69Pg-yHoI-f8krO6QM_YQQnyC8RIfkw"></script>
+<script src="/profiles/custom/here_com/modules/custom/here_lead_generation_v2/js/marketo-form.js?sawh49" defer></script>
+<script src="//here360blog.disqus.com/count.js" async id="dsq-count-scr"></script>
+<script src="/sites/g/files/odxslz256/files/js/js_AJtsoe1h6mYU5UUUFy_gUthET3PVqOHr8uZOrdhPnEE.js?scope=footer&amp;delta=9&amp;language=en&amp;theme=here_com_theme&amp;include=eJyNVO2S2yAMfKG7eOb6JH0CRgbZJsaIE8JJ7ukrf6RNinPtD9sMu5bEaoUlxub8WZBvbwMymgl4RKFmKtEOo49v-ZYFp6aFjBtjWRkZcMKmD9RCqLbBTT6a4OOYK8wKvEDOP5cqTIKc_YxK0rwROZvOX-sUZ7gaH7NAtFjHoiKaBI1DQSsVPGBIGrmOGv0E4ilWSJ77azlQQKAN9W72UwrYAm9IgK-bCQSu-b3aAC1-IM5Ntkwh3MmxL9Bjc1-YfPFiFXtLwNAzpCE3jkuCcPqzcyoxlVZFG9DV9ZD1EMyEzm_qV4yOSJCr7d0NJherMteC3fGOeDJtIDv-5aLt-77gH_v5EJzpl86uSpv54ynKRnI-fxY95fqp21REZTOJcfZ4qWCtozf7kfMAXPenZS3Ccpnag-AzCNRKbDNywhB8yr7-jTGAoDOWotpWjNehOazsRbmrA9TRzlsQqvNHmH2_K_bDJEolAB9nmc0D-c7MCKwmqgt_Ym-sjaNm0UIWES_EYxfosghPlhZvi9pSbuEg3jLgLdixZyrRaQN0Dr9PemjIJ0YXbjrR_8PR8WmxvpGeJYH4L0pG7aMDvY6O76rneNr5dQByaffgdrlW9xl12KoS9nsRalCdnYjlQcu9jCLQN8try3LO75Zo9PiA9i7x2vlkIpnH22WFd7MJa2gflzgOc_QpoTQP69Pg-yHoI-f8krO6QM_YQQnyC8RIfkw"></script>
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"7754d53c5f","applicationID":"815526003,807253695","transactionName":"NFIBZkVVDEEABRBZXg0YIlFDXQ1cThYFV1Q8VAJRX1E=","queueTime":46,"applicationTime":22,"atts":"GBUCEA1PH08=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
